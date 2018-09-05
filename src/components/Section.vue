@@ -1,21 +1,16 @@
 <template>
-    <div class="section">
-        <section>
-            <header>
-                <h1>{{ header }}</h1>
-                <small>{{ description }}</small>
-            </header>
-            <div class="form">
-                <p>Form goes here</p>
-            </div>
-            <footer>
-                {{ pageNumber }}
-            </footer>
-        </section>
-        <aside>
-            {{ aside }}
-        </aside>
-    </div>
+    <section>
+        <header>
+            <h1>{{ header }}</h1>
+            <small>{{ description }}</small>
+        </header>
+        <div class="form">
+            <slot>This section of the form is empty</slot>
+        </div>
+        <footer>
+            {{ pageNumber }}
+        </footer>
+    </section>
 </template>
 
 <script>
@@ -24,7 +19,7 @@ export default {
   props: {
     header: String,
     description: String,
-    pageNumber: Number
+    pageNumber: String
   }
 }
 </script>
@@ -33,7 +28,11 @@ export default {
     $grey-colour: rgb(102, 102, 102);
     $border-colour: rgb(210, 210, 210);
 
-    div.section {
+    section {
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+
         background-color: white;
         margin-bottom: 37px;
         height: 1100px;
@@ -41,12 +40,6 @@ export default {
         -webkit-box-shadow: 5px 5px 10px rgba(204, 204, 204, 0.349019607843137);
         -moz-box-shadow: 5px 5px 10px rgba(204, 204, 204, 0.349019607843137);
         box-shadow: 5px 5px 10px rgba(204, 204, 204, 0.349019607843137);
-    }
-
-    section {
-        display: flex;
-        flex-direction: column;
-        padding: 50px;
 
         & > header {
             color: $grey-colour;
@@ -59,6 +52,7 @@ export default {
         footer {
             align-self: flex-end;
             text-align: right;
+            margin-top: auto; // push the footer to the bottom
         }
     }
 </style>

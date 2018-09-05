@@ -2,7 +2,10 @@
   <div id="app">
     <SideNav />
     <div id="content">
-      <Section header="Section 1" pageNumber="1" />
+      <Section header="Section 1" pageNumber="1">
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Applicants' full legal name" />
+      </Section>
       <Section header="Section 2 – About your health condition or disability"
                description="Use page 7 of the Information Booklet to help you answer these questions."
                pageNumber="2" />
