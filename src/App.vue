@@ -228,7 +228,37 @@ export default {
 
         ]
 
-      }
+      },
+      page_5: {
+        title: 'Section 3 – How your health condition or disability affects your day-to-day life ',
+        description: "<div id=\"u253\" class=\"ax_default heading_2\"> <div id=\"u253_div\" class=\"\"></div> <div id=\"u253_text\" class=\"text \"> <p><span style=\"font-family:'Open Sans Bold', 'Open Sans Regular', 'Open Sans';font-weight:700;\">Extra information – Preparing food</span></p> <p><span style=\"font-family:'Open Sans';font-weight:400;\">Tell us more about any difficulties you have when </span><span style=\"font-family:'Open Sans Bold', 'Open Sans Regular', 'Open Sans';font-weight:700;\">preparing and cooking food</span><span style=\"font-family:'Open Sans';font-weight:400;\">:</span></p> <p><span style=\"font-family:'Open Sans';font-weight:400;\">•&nbsp; &nbsp;&nbsp; Tell us how your condition affects you doing this activity </span></p> <p><span style=\"font-family:'Open Sans';font-weight:400;\">•&nbsp; &nbsp;&nbsp; Tell us how you manage at the moment and the problems you have when you can’t do </span></p> <p><span style=\"font-family:'Open Sans';font-weight:400;\">&nbsp;&nbsp; &nbsp; &nbsp; this activity </span></p> <p><span style=\"font-family:'Open Sans';font-weight:400;\">•&nbsp; &nbsp;&nbsp; Tell us how long it takes you to prepare and cook food </span></p> <p><span style=\"font-family:'Open Sans';font-weight:400;\">•&nbsp; &nbsp;&nbsp; Does whether you can do this vary throughout the day? Tell us about good and bad</span></p> <p><span style=\"font-family:'Open Sans';font-weight:400;\">&nbsp;&nbsp; &nbsp; &nbsp; days </span></p> <p><span style=\"font-family:'Open Sans';font-weight:400;\">•&nbsp; &nbsp;&nbsp; Can you cook using an oven safely? If not, tell us why not</span></p> <p><span style=\"font-family:'Open Sans';font-weight:400;\">•&nbsp; &nbsp;&nbsp; Tell us about the aids or appliances you </span><span style=\"font-family:'Open Sans Bold', 'Open Sans Regular', 'Open Sans';font-weight:700;\">need</span><span style=\"font-family:'Open Sans';font-weight:400;\"> to use to help you prepare and cook </span></p> <p><span style=\"font-family:'Open Sans';font-weight:400;\">&nbsp;&nbsp; &nbsp; &nbsp; food </span></p> <p><span style=\"font-family:'Open Sans';font-weight:400;\">•&nbsp; &nbsp;&nbsp; Do you experience any other difficulties, </span><span style=\"font-family:'Open Sans Bold', 'Open Sans Regular', 'Open Sans';font-weight:700;\">either during or after the activity</span><span style=\"font-family:'Open Sans';font-weight:400;\">, like pain,</span></p> <p><span style=\"font-family:'Open Sans';font-weight:400;\">&nbsp;&nbsp; &nbsp; &nbsp; breathlessness or tiredness? </span></p> <p><span style=\"font-family:'Open Sans';font-weight:400;\">•&nbsp; &nbsp;&nbsp; Tell us about </span><span style=\"font-family:'Open Sans Bold', 'Open Sans Regular', 'Open Sans';font-weight:700;\">help you get from another person</span><span style=\"font-family:'Open Sans';font-weight:400;\"> when preparing food. This includes</span></p> <p><span style=\"font-family:'Open Sans';font-weight:400;\">&nbsp;&nbsp; &nbsp; &nbsp; help you have </span><span style=\"font-family:'Open Sans Bold', 'Open Sans Regular', 'Open Sans';font-weight:700;\">and</span><span style=\"font-family:'Open Sans';font-weight:400;\"> help you need but don’t get</span></p> </div></div>",
+        guidance: "<div id=\"u258\" class=\"ax_default box_1\"> <div id=\"u258_div\" class=\"\"></div> <div id=\"u258_text\" class=\"text \"> <p><span>Try asking the applicant did they cook last night? Or When did they last cook a meal?</span></p><p><span><br></span></p><p><span>If they use aid/appliance, explain</span></p><p><span>- How they help and what would happen if they didn't use them?</span></p><p><span>- Did a health professional advise them to?</span></p><p><span>- Who supervises them, how often? Include any help they need but don't get.</span></p><p><span><br></span></p><p><span>If they heat food,</span></p><p><span>- Do they use a hob or microwave?</span></p><p><span>- Can they heat on a hob or would they use a microwave?</span></p> </div> </div>",
+        questions: [
+
+          {
+            id: '3',
+            title: '',
+            type: 'multi-line-textbox',
+            placeholder: 'type information here'
+          }
+
+        ]
+
+      },
+    page_6: {
+      title: "Section 3 – How your health condition or disability affects your day-to-day life",
+      description: "",
+      guidance: "",
+      questions: [
+
+        
+
+
+
+      ]
+
+
+    }
 
     }
   }
