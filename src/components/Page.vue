@@ -14,9 +14,7 @@
             </footer>
         </section>
     </div>
-    
       <div class="guidance-page" v-if="model.guidance" v-html="model.guidance"></div>
-  
     </div>
 </template>
 

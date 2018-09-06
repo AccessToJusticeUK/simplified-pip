@@ -1,10 +1,5 @@
 <template>
     <div class="question table">
-<<<<<<< HEAD
-        <span class="check">✔</span>
-
-=======
->>>>>>> 213b1ed7c50c5477f18008deb1c5b6b301fc9591
         <table>
             <thead>
                 <tr>
@@ -36,38 +31,23 @@
 </style>
 <script>
 export default {
-  name: 'Table',
+  name: "Table",
   props: {
     columns: Array
   },
   methods: {
-<<<<<<< HEAD
-    addRow: function () {
-      this.rows.push({})
+    addRow: function() {
+      this.rows.push({});
     },
 
-    removeRow: function (index) {
-      this.rows.splice(index, 1)
+    removeRow: function(index) {
+      this.rows.splice(index, 1);
     }
   },
-  data: function () {
+  data: function() {
     return {
-      rows: []
-    }
-=======
-      addRow: function () {
-          this.rows.push({});
-      },
-
-      removeRow: function (index) {
-          this.rows.splice(index, 1);
-      }
-  },
-  data: function () {
-      return {
-          rows: [[]]
-      }
->>>>>>> 213b1ed7c50c5477f18008deb1c5b6b301fc9591
+      rows: [{}]
+    };
   }
-}
+};
 </script>
