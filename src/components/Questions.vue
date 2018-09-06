@@ -5,7 +5,7 @@
             
             <h1 class="title">{{question.title}}</h1>
             
-            <div class="guidance"></div>
+            <div class="description" v-html="question.description"></div>
 
             <SingleLineTextBox 
                 v-if="question.type=='single-line-textbox'"
@@ -18,6 +18,13 @@
             <RadioGroup 
                 v-if="question.type=='radio-group'"
                 :options="question.options" />
+
+            <div v-if="question.type=='subsection'">
+                <div class="subsection">
+                    <h2 v-if="question.heading">{{question.heading}}</h2>
+                    <div v-if="question.sub_heading">{{question.sub_heading}}</div>
+                </div>
+            </div>
                 
         </div>
     </div>
