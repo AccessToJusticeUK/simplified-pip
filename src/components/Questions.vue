@@ -19,7 +19,7 @@
                 v-if="question.type=='radio-group'"
                 :options="question.options" />
 
-            <Table 
+            <Table
                 v-if="question.type=='table'"
                 :columns="question.columns" />
 
@@ -38,11 +38,10 @@
 </style>
 
 <script>
-import SingleLineTextBox from "./questionTypes/SingleLineTextBox.vue";
-import MultiLineTextBox from "./questionTypes/MultiLineTextBox.vue";
-import RadioGroup from "./questionTypes/RadioGroup.vue";
-import Table from "./questionTypes/Tables.vue";
-
+import SingleLineTextBox from './questionTypes/SingleLineTextBox.vue'
+import MultiLineTextBox from './questionTypes/MultiLineTextBox.vue'
+import RadioGroup from './questionTypes/RadioGroup.vue'
+import Table from './questionTypes/Tables.vue'
 
 export default {
   name: 'Questions',
