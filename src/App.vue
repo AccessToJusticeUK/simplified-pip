@@ -278,6 +278,45 @@ color: #999;
 font-style: italic;
 }
 
+.subsection h2 {
+  font-size: 20px;
+  color: #666666;
+  font-weight: 200;
+}
+
+.subsection div {
+  font-size: 12px;
+  color: #797979;
+  line-height: 18px;
+}
+
+.question h1.title {
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+}
+
+.question .description {
+  font-size: 12px;
+  font-weight: 400;
+  color: #666666;
+}
+
+.question .radio-group .option {
+  font-size: 18px;
+  font-weight: 400;
+  padding-right: 10px;
+  border-style: solid;
+  border-left-width: 3px;
+  border-left-color: #ff6600;
+  border-top-width: 1px;
+  border-top-color: #e4e4e4;
+  border-right-width: 1px;
+  border-right-color: #e4e4e4;
+  border-bottom-width: 1px;
+  border-bottom-color: #e4e4e4;
+}
+
   #content {
     margin-top: 95px;
     display: flex;
