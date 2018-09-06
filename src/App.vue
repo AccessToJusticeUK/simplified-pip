@@ -259,6 +259,10 @@ body {
   color: #333;
 
 }
+
+.question {
+  margin-bottom: 10px;
+}
 .question h1.title {
   font-size: 16px;
   color: #333;
@@ -311,6 +315,10 @@ font-style: italic;
   font-weight: 200;
 }
 
+#section {
+  float: left;
+}
+
 .subsection div {
   font-size: 12px;
   color: #797979;
@@ -328,11 +336,15 @@ font-style: italic;
   font-weight: 400;
   color: #666666;
 }
-
+.radio-group{
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
 .question .radio-group .option {
   font-size: 18px;
   font-weight: 400;
-  padding-right: 10px;
+  padding: 10px;
+  padding-right: 20px;
   border-style: solid;
   border-left-width: 3px;
   border-left-color: #ff6600;
@@ -344,10 +356,18 @@ font-style: italic;
   border-bottom-color: #e4e4e4;
 }
 
+.guidance-page {
+  float: left;
+  width: 300px;
+  margin-top: 40px;
+  margin-left: 25px;
+} 
+
   #content {
     margin-top: 95px;
     display: flex;
     flex-direction: column;
+    
   }
 
   .question table {
