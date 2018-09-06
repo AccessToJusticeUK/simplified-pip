@@ -1,7 +1,5 @@
 <template>
     <div class="question table">
-        <span class="check">✔</span>
-
         <table>
             <thead>
                 <tr>
@@ -48,7 +46,7 @@ export default {
   },
   data: function () {
       return {
-          rows: []
+          rows: [[]]
       }
   }
 }
