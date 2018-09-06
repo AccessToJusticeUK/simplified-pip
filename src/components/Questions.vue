@@ -1,0 +1,49 @@
+<template>
+   
+    <div class="questions">
+        <div class="question" v-for="question in items">
+            
+            <h1 class="title">{{question.title}}</h1>
+            
+            <div class="guidance"></div>
+
+            <SingleLineTextBox 
+                v-if="question.type=='single-line-textbox'"
+                :placeholder="question.placeholder" />
+
+            <MultiLineTextBox 
+                v-if="question.type=='multi-line-textbox'"
+                :placeholder="question.placeholder" />
+
+            <RadioGroup 
+                v-if="question.type=='radio-group'"
+                :options="question.options" />
+                
+        </div>
+    </div>
+</template>
+
+<style scoped lang="scss">
+</style>
+
+<script>
+import SingleLineTextBox from "./questionTypes/SingleLineTextBox.vue";
+import MultiLineTextBox from "./questionTypes/MultiLineTextBox.vue";
+import RadioGroup from "./questionTypes/RadioGroup.vue";
+
+
+export default {
+  name: "Questions",
+  props: {
+    items: Array
+  },
+  components: {
+    SingleLineTextBox,
+    MultiLineTextBox,
+    RadioGroup
+  },
+  data: function () {
+      return {};
+  }
+};
+</script>

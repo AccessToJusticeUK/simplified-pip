@@ -4,6 +4,8 @@
     <div id="content">
       <Section header="Section 1" 
         pageNumber="1" />
+        <Section header="Section 1" 
+        pageNumber="2" />
     </div>
   </div>
 </template>
