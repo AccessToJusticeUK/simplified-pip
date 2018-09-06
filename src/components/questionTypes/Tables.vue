@@ -38,18 +38,18 @@ export default {
     columns: Array
   },
   methods: {
-      addRow: function () {
-          this.rows.push({});
-      },
+    addRow: function () {
+      this.rows.push({})
+    },
 
-      removeRow: function (index) {
-          this.rows.splice(index, 1);
-      }
+    removeRow: function (index) {
+      this.rows.splice(index, 1)
+    }
   },
   data: function () {
-      return {
-          rows: []
-      }
+    return {
+      rows: []
+    }
   }
 }
 </script>
