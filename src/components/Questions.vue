@@ -19,6 +19,10 @@
                 v-if="question.type=='radio-group'"
                 :options="question.options" />
 
+            <Table 
+                v-if="question.type=='table'"
+                :columns="question.columns" />
+
             <div v-if="question.type=='subsection'">
                 <div class="subsection">
                     <h2 v-if="question.heading">{{question.heading}}</h2>
@@ -34,9 +38,11 @@
 </style>
 
 <script>
-import SingleLineTextBox from './questionTypes/SingleLineTextBox.vue'
-import MultiLineTextBox from './questionTypes/MultiLineTextBox.vue'
-import RadioGroup from './questionTypes/RadioGroup.vue'
+import SingleLineTextBox from "./questionTypes/SingleLineTextBox.vue";
+import MultiLineTextBox from "./questionTypes/MultiLineTextBox.vue";
+import RadioGroup from "./questionTypes/RadioGroup.vue";
+import Table from "./questionTypes/Tables.vue";
+
 
 export default {
   name: 'Questions',
@@ -46,7 +52,8 @@ export default {
   components: {
     SingleLineTextBox,
     MultiLineTextBox,
-    RadioGroup
+    RadioGroup,
+    Table
   },
   data: function () {
     return {}

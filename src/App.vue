@@ -30,11 +30,60 @@ export default {
 
         questions: [
           {
-            id: '1',
-            title: 'Name',
-            type: 'single-line-textbox',
-            placeholder: 'Applicants full legal name',
-            description: ''
+            id: "0",
+            title: "Table",
+            type: "table",
+            columns: [
+                {
+                  title: "yes",
+                  placeholder: "placeholder",
+                  widthPercent: null,
+                  value: ""
+                },
+                {
+                  title: "no",
+                  placeholder: "placeholder",
+                  widthPercent: null,
+                  value: ""
+                },
+                {
+                  title: "sometimes",
+                  placeholder: "placeholder",
+                  widthPercent: null,
+                  value: ""
+                },
+                {
+                  title: "sometimes",
+                  placeholder: "placeholder",
+                  widthPercent: null,
+                  value: ""
+                }
+              ]
+          },{
+            id: "0",
+            title: "Table 2",
+            type: "table",
+            columns: [
+                {
+                  title: "yes",
+                  placeholder: "placeholder",
+                  value: "",
+                  widthPercent: null
+                },
+                {
+                  title: "no",
+                  placeholder: "placeholder",
+                  widthPercent: null,
+                  value: ""
+                }
+              ]
+          },
+          {
+            id: "1",
+            title: "First question",
+            type: "single-line-textbox",
+            placeholder: "Enter something",
+            description: ""
           },
           {
             id: '3',
@@ -233,6 +282,14 @@ font-style: italic;
     margin-top: 95px;
     display: flex;
     flex-direction: column;
+  }
+
+  .question table {
+    width: 100%;
+
+    textarea {
+      width: 100%;
+    }
   }
 }
 </style>
