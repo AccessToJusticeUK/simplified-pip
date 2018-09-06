@@ -8,27 +8,7 @@
             <div class="form">
                 <p>Form goes here</p>
 
-                <div class="questions">
-                    <div class="question" v-for="question in questions">
-                        
-                        <h1 class="title">{{question.title}}</h1>
-                        
-                        <div class="guidance"></div>
-
-                        <SingleLineTextBox 
-                            v-if="question.type=='single-line-textbox'"
-                            :placeholder="question.placeholder" />
-
-                        <MultiLineTextBox 
-                            v-if="question.type=='multi-line-textbox'"
-                            :placeholder="question.placeholder" />
-
-                        <RadioGroup 
-                            v-if="question.type=='radio-group'"
-                            :options="question.options" />
-                            
-                    </div>
-                </div>
+                <Questions :items="questions" />   
             </div>
             <footer>
                 {{ pageNumber }}
@@ -38,9 +18,7 @@
 </template>
 
 <script>
-import SingleLineTextBox from "./questionTypes/SingleLineTextBox.vue";
-import MultiLineTextBox from "./questionTypes/MultiLineTextBox.vue";
-import RadioGroup from "./questionTypes/RadioGroup.vue";
+import Questions from "./Questions.vue"
 
 export default {
   name: "Section",
@@ -50,9 +28,7 @@ export default {
     pageNumber: String
   },
   components: {
-    SingleLineTextBox,
-    MultiLineTextBox,
-    RadioGroup
+    Questions
   },
   data: function() {
     return {
