@@ -1,21 +1,21 @@
 <template>
-   
+
     <div class="questions">
         <div class="question" v-for="question in items">
-            
+
             <h1 class="title">{{question.title}}</h1>
-            
+
             <div class="description" v-html="question.description"></div>
 
-            <SingleLineTextBox 
+            <SingleLineTextBox
                 v-if="question.type=='single-line-textbox'"
                 :placeholder="question.placeholder" />
 
-            <MultiLineTextBox 
+            <MultiLineTextBox
                 v-if="question.type=='multi-line-textbox'"
                 :placeholder="question.placeholder" />
 
-            <RadioGroup 
+            <RadioGroup
                 v-if="question.type=='radio-group'"
                 :options="question.options" />
 
@@ -25,7 +25,7 @@
                     <div v-if="question.sub_heading">{{question.sub_heading}}</div>
                 </div>
             </div>
-                
+
         </div>
     </div>
 </template>
@@ -34,13 +34,12 @@
 </style>
 
 <script>
-import SingleLineTextBox from "./questionTypes/SingleLineTextBox.vue";
-import MultiLineTextBox from "./questionTypes/MultiLineTextBox.vue";
-import RadioGroup from "./questionTypes/RadioGroup.vue";
-
+import SingleLineTextBox from './questionTypes/SingleLineTextBox.vue'
+import MultiLineTextBox from './questionTypes/MultiLineTextBox.vue'
+import RadioGroup from './questionTypes/RadioGroup.vue'
 
 export default {
-  name: "Questions",
+  name: 'Questions',
   props: {
     items: Array
   },
@@ -50,7 +49,7 @@ export default {
     RadioGroup
   },
   data: function () {
-      return {};
+    return {}
   }
-};
+}
 </script>

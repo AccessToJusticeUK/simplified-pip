@@ -10,14 +10,14 @@
 
 <script>
 export default {
-  name: "SingleLineTextBox",
+  name: 'SingleLineTextBox',
   props: {
     placeholder: String
   },
   data: function () {
-      return {
-          text: null
-      }
+    return {
+      text: null
+    }
   }
-};
+}
 </script>
