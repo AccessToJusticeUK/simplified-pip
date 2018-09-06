@@ -10,10 +10,9 @@
 
 <script>
 export default {
-  name: "Section",
+  name: "MultiLineTextBox",
   props: {
-    question: {},
-    placeholder: ""
+    placeholder: String
   },
   data: function () {
       return {
