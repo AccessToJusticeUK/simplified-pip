@@ -1,7 +1,7 @@
 <template>
     <div class="question multi-line">
         <span class="check" v-if="text">✔</span>
-        <textarea :placeholder="placeholder" v-model="text" type="text"></textarea>
+        <textarea :placeholder="placeholder" v-model="text"></textarea>
     </div>
 </template>
 
