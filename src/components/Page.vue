@@ -1,10 +1,10 @@
 <template>
+<div>
     <div class="section">
         <section>
             <header>
                 <h1 v-if="model.title">{{model.title}}</h1>
                 <small v-if="model.description">{{ model.description }}</small>
-                <div class="guidance-page" v-if="model.guidance" v-html="model.guidance"></div>
             </header>
             <div class="form">
                 <Questions :items="model.questions" />
@@ -13,6 +13,8 @@
                 {{ pageNumber }}
             </footer>
         </section>
+    </div>
+      <div class="guidance-page" v-if="model.guidance" v-html="model.guidance"></div>
     </div>
 </template>
 
@@ -35,7 +37,8 @@ export default {
 $grey-colour: rgb(102, 102, 102);
 $border-colour: rgb(210, 210, 210);
 
-section {
+.section {
+  float: left;
   display: flex;
   flex-direction: column;
   padding: 50px;
