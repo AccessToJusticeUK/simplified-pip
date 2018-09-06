@@ -1,4 +1,5 @@
 # Simplified PiP
+Digital form for agencies assisting clients with their Personal Independence Payment request to the UK Department for Work and Pensions (DWP).
 
 ## Contributing
 We practise [Trunk Based Development](https://trunkbaseddevelopment.com) which means that all commits should go directly to master.
@@ -8,7 +9,7 @@ On commit, our AWS CodeBuild will kick off a build and deploy a static website i
 
 Production URL: http://simplified-pip.s3-website.eu-west-2.amazonaws.com/.
 
-## Project setup
+### Project setup
 `npm install`
 
 Compile and hot-reloads for development: 
@@ -22,3 +23,6 @@ Lint and fix files:
 
 Run your unit tests: 
 `npm run test:unit`
+
+### AWS Account
+Please contact [@BAPostma](https://github.com/BAPostma) for obtaining access.
