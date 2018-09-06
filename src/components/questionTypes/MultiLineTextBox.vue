@@ -10,14 +10,14 @@
 
 <script>
 export default {
-  name: "MultiLineTextBox",
+  name: 'MultiLineTextBox',
   props: {
     placeholder: String
   },
   data: function () {
-      return {
-          text: null
-      }
+    return {
+      text: null
+    }
   }
-};
+}
 </script>

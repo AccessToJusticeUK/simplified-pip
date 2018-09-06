@@ -7,7 +7,7 @@
                 <div v-if="model.guidance" v-html="model.guidance"></div>
             </header>
             <div class="form">
-                <Questions :items="model.questions" />   
+                <Questions :items="model.questions" />
             </div>
             <footer>
                 {{ pageNumber }}
@@ -17,10 +17,10 @@
 </template>
 
 <script>
-import Questions from "./Questions.vue"
+import Questions from './Questions.vue'
 
 export default {
-  name: "Section",
+  name: 'Section',
   props: {
     model: Object,
     pageNumber: String
@@ -28,7 +28,7 @@ export default {
   components: {
     Questions
   }
-};
+}
 </script>
 
 <style scoped lang="scss">
