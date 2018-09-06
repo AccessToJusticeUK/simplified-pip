@@ -1,7 +1,7 @@
 <template>
     <div class="question single-line">
-        <span class="check"></span>
-        <input placeholder="{{placeholder}}" type="text" />
+        <span class="check" v-if="text">✔</span>
+        <input :placeholder="placeholder" v-model="text" type="text" />
     </div>
 </template>
 
@@ -17,7 +17,7 @@ export default {
   },
   data: function () {
       return {
-          
+          text: null
       }
   }
 };
