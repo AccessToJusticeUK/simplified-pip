@@ -11,9 +11,13 @@
                 <div class="questions" v-for="question in questions">
                     <h1>{{question.title}}</h1>
 
-                    <div v-if="question.type=='single-line-textbox'">
-                        <input type="text" placeholder="Enter whatever" />
-                    </div>
+                    <SingleLineTextBox 
+                        v-if="question.type=='single-line-textbox'"
+                        :placeholder="question.placeholder" />
+                    <MultiLineTextBox 
+                        v-if="question.type=='multi-line-textbox'"
+                        :placeholder="question.placeholder" />
+                        
                 </div>
             </div>
             <footer>
@@ -24,6 +28,9 @@
 </template>
 
 <script>
+import SingleLineTextBox from './questionTypes/SingleLineTextBox.vue'
+import MultiLineTextBox from './questionTypes/MultiLineTextBox.vue'
+
 export default {
   name: 'Section',
   props: {
@@ -32,6 +39,10 @@ export default {
     pageNumber: String
     
   },
+  components: {
+      SingleLineTextBox,
+      MultiLineTextBox
+  },
   data: function () {
       return {
           questions: [
@@ -39,16 +50,20 @@ export default {
                 "id": "1",
                 "title": "First question",
                 "type": "single-line-textbox",
+                "placeholder": "Enter something"
             },
             {
                 "id": "1",
                 "title": "Second question",
                 "type": "single-line-textbox",
+                "placeholder": "Enter something 2"
             },
             {
                 "id": "1",
-                "title": "Second question",
+                "title": "Multi Line question",
                 "type": "multi-line-textbox",
+                "placeholder": "Enter something 2"
+
             }
         ]
       }
