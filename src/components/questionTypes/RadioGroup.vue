@@ -1,5 +1,5 @@
 <template>
-    <div class="question multi-line">
+    <div class="question radio-group">
         <span class="check" v-if="selectedOption">✔</span>
         
         <div class="options">
