@@ -10,10 +10,9 @@
 
 <script>
 export default {
-  name: "Section",
+  name: "SingleLineTextBox",
   props: {
-    question: {},
-    placeholder: ""
+    placeholder: String
   },
   data: function () {
       return {
