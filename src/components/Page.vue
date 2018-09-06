@@ -4,7 +4,7 @@
             <header>
                 <h1 v-if="model.title">{{model.title}}</h1>
                 <small v-if="model.description">{{ model.description }}</small>
-                <div v-if="model.guidance" v-html="model.guidance"></div>
+                <div class="guidance-page" v-if="model.guidance" v-html="model.guidance"></div>
             </header>
             <div class="form">
                 <Questions :items="model.questions" />

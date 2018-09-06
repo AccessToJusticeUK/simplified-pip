@@ -1,7 +1,7 @@
 <template>
     <div class="question single-line">
         <span class="check" v-if="text">✔</span>
-        <input :placeholder="placeholder" v-model="text" type="text" />
+        <input :placeholder="placeholder" v-model="text" type="text"/>
     </div>
 </template>
 
