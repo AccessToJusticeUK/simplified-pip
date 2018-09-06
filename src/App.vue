@@ -9,13 +9,11 @@
       <Section header="Section 2 – About your health condition or disability"
                description="Use page 7 of the Information Booklet to help you answer these questions."
                pageNumber="2" />
-      <HelloWorld msg="Welcome to Your Vue.js App" />
     </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 import SideNav from './components/SideNav.vue'
 import Section from './components/Section.vue'
 
@@ -23,7 +21,6 @@ export default {
   name: 'app',
   components: {
     SideNav,
-    HelloWorld,
     Section
   }
 }
