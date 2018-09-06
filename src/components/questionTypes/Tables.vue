@@ -1,7 +1,7 @@
 <template>
     <div class="question table">
         <span class="check">✔</span>
-        
+
         <table>
             <thead>
                 <tr>
@@ -13,7 +13,7 @@
                 <tr v-for="(row, index) in rows">
                     <td v-for="col in columns">
                         <textarea
-                            v-model="col.value" 
+                            v-model="col.value"
                             :style="{width: col.widthPx + 'px'}"
                             :placeholder="col.placeholder"></textarea>
                     </td>
@@ -21,7 +21,7 @@
                         <button @click="addRow()" v-if="index > 0" class="table-delete-button">➖</button>
                     </td>
                 </tr>
-                
+
             </tbody>
         </table>
 
@@ -33,19 +33,19 @@
 </style>
 <script>
 export default {
-  name: "Table",
+  name: 'Table',
   props: {
     columns: Array
   },
   methods: {
-      addRow: function () {
-          this.rows.push({});
-      }
+    addRow: function () {
+      this.rows.push({})
+    }
   },
   data: function () {
-      return {
-          rows: [{}]
-      }
+    return {
+      rows: [{}]
+    }
   }
 }
 </script>
