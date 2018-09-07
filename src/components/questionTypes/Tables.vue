@@ -3,13 +3,13 @@
         <table>
             <thead>
                 <tr>
-                    <th v-for="col in columns">{{col.title}}</th>
+                    <th v-for="(col, index) in columns" v-bind:key="index">{{col.title}}</th>
                     <th></th>
                 </tr>
             </thead>
             <tbody>
-                <tr v-for="(row, index) in rows">
-                    <td v-for="(col, colIndex) in columns">
+                <tr v-for="(row, rowIndex) in rows" v-bind:key="rowIndex">
+                    <td v-for="(col, colIndex) in columns" v-bind:key="colIndex">
                         <textarea
                             v-model="row[colIndex]"
                             :style="{width: col.widthPx + 'px'}"
@@ -31,23 +31,23 @@
 </style>
 <script>
 export default {
-  name: "Table",
+  name: 'Table',
   props: {
     columns: Array
   },
   methods: {
-    addRow: function() {
-      this.rows.push({});
+    addRow: function () {
+      this.rows.push({})
     },
 
-    removeRow: function(index) {
-      this.rows.splice(index, 1);
+    removeRow: function (index) {
+      this.rows.splice(index, 1)
     }
   },
-  data: function() {
+  data: function () {
     return {
       rows: [{}]
-    };
+    }
   }
-};
+}
 </script>
