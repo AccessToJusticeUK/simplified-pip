@@ -25,7 +25,7 @@ export default {
   name: 'Section',
   props: {
     model: Object,
-    pageNumber: String
+    pageNumber: Number
   },
   components: {
     Questions
