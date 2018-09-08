@@ -1,14 +1,11 @@
 <template>
   <div id="app">
     <SideNav />
-    <div id="content">
-
-      <div v-for="page in pages">
+    <form id="content">
         <div v-for="page in pages" v-bind:key="page.pageNum">
           <Page :pageNumber="page.pageNum" :model="page" />
         </div>
-
-    </div>
+    </form>
   </div>
 </template>
 
@@ -300,6 +297,10 @@ body {
   margin-top: 0;
 }
 
+input, textarea {
+  box-sizing: border-box;
+}
+
 #app {
   font-family: "Open Sans Light", "Open Sans Regular", "Open Sans", sans-serif;
   font-weight: 300;
@@ -308,12 +309,6 @@ body {
   color: #2c3e50;
   display: flex;
   justify-content: flex-start;
-
-  .guidance-page {
-    font-size: 14px;
-    font-weight: 300;
-    color: #333;
-  }
 
   .question {
     margin-bottom: 10px;
@@ -409,13 +404,6 @@ body {
     border-right-color: #e4e4e4;
     border-bottom-width: 1px;
     border-bottom-color: #e4e4e4;
-  }
-
-  .guidance-page {
-    float: left;
-    width: 300px;
-    margin-top: 40px;
-    margin-left: 25px;
   }
 
   #content {

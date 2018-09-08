@@ -1,21 +1,19 @@
 <template>
-<div>
-    <div class="section">
-        <section>
-            <header>
-                <h1 v-if="model.title">{{model.title}}</h1>
-                <small v-if="model.description">{{ model.description }}</small>
-            </header>
-            <div class="form">
-                <Questions :items="model.questions" />
-            </div>
-            <footer>
-                {{ pageNumber }}
-            </footer>
-        </section>
-    </div>
-      <div class="guidance-page" v-if="model.guidance" v-html="model.guidance"></div>
-    </div>
+  <article>
+    <section>
+        <header>
+            <h1 v-if="model.title">{{model.title}}</h1>
+            <small v-if="model.description">{{ model.description }}</small>
+        </header>
+        <div class="form">
+            <Questions :items="model.questions" />
+        </div>
+        <footer>
+            {{ pageNumber }}
+        </footer>
+    </section>
+    <aside v-if="model.guidance" v-html="model.guidance" />
+  </article>
 </template>
 
 <script>
@@ -37,19 +35,30 @@ export default {
 $grey-colour: rgb(102, 102, 102);
 $border-colour: rgb(210, 210, 210);
 
-.section {
-  float: left;
+$section-padding: 50px;
+$section-margin-bottom: 37px;
+
+article {
+  display: flex;
+  flex-direction: row;
+  min-height: 1100px;
+}
+
+section {
   display: flex;
   flex-direction: column;
-  padding: 50px;
+  padding: $section-padding;
 
   background-color: white;
-  margin-bottom: 37px;
-  height: 1100px;
+  margin-bottom: $section-margin-bottom;
   width: 780px;
+  box-sizing: border-box;
   -webkit-box-shadow: 5px 5px 10px rgba(204, 204, 204, 0.349019607843137);
   -moz-box-shadow: 5px 5px 10px rgba(204, 204, 204, 0.349019607843137);
   box-shadow: 5px 5px 10px rgba(204, 204, 204, 0.349019607843137);
+
+  page-break-inside: avoid;
+  page-break-after: always;
 
   & > header {
     color: $grey-colour;
@@ -64,5 +73,16 @@ $border-colour: rgb(210, 210, 210);
     text-align: right;
     margin-top: auto; // push the footer to the bottom
   }
+}
+
+aside {
+  width: 300px;
+  margin-top: 50px;
+  margin-left: 25px;
+  margin-bottom: calc($section-margin-bottom + $section-padding);
+
+  font-size: 14px;
+  font-weight: 300;
+  color: #333;
 }
 </style>
