@@ -2,22 +2,25 @@
   <div id="app">
     <SideNav />
     <form id="content">
-        <div v-for="page in pages" v-bind:key="page.pageNum">
+        <!-- <div v-for="page in pages" v-bind:key="page.pageNum">
           <Page :pageNumber="page.pageNum" :model="page" />
-        </div>
+        </div> -->
+        <Page1 />
     </form>
   </div>
 </template>
 
 <script>
 import SideNav from './components/SideNav.vue'
-import Page from './components/Page.vue'
+// import Page from './components/Page.vue'
+import Page1 from './pages/Page1.vue'
 
 export default {
   name: 'app',
   components: {
     SideNav,
-    Page
+    // Page,
+    Page1
   },
   data: function () {
     return {
@@ -286,15 +289,15 @@ export default {
 <style lang="scss">
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700");
 
-h1 {
-  margin-top: 0;
-  margin-bottom: 0;
-  font-weight: normal;
-}
+$grey-colour: rgb(102, 102, 102);
 
 body {
   background-color: rgba(242, 242, 242, 1);
   margin-top: 0;
+}
+
+header {
+  color: $grey-colour;
 }
 
 input, textarea {
@@ -320,25 +323,21 @@ input, textarea {
     line-height: 22px;
   }
 
-  .question.single-line input[type="text"] {
-    width: 100%;
-    padding: 5px;
-    font-size: 14px;
-    color: #333;
-    font-weight: 400;
-    border-style: solid;
-    border-left-width: 3px;
-    border-left-color: #ff6600;
-    border-top-width: 1px;
-    border-top-color: #e4e4e4;
-    border-right-width: 1px;
-    border-right-color: #e4e4e4;
-    border-bottom-width: 1px;
-    border-bottom-color: #e4e4e4;
+  @mixin form-spacing {
+    margin: 12.5px 0;
   }
 
-  .question.multi-line textarea {
-    width: 100%;
+  label {
+    display: inline-block;
+    width: 15%;
+    @include form-spacing();
+  }
+
+  @mixin form-elements {
+    @include form-spacing();
+
+    width: 85%;
+    display: inline-block;
     padding: 5px;
     font-size: 14px;
     color: #333;
@@ -352,6 +351,21 @@ input, textarea {
     border-right-color: #e4e4e4;
     border-bottom-width: 1px;
     border-bottom-color: #e4e4e4;
+    outline: none;
+  }
+
+  input[type="text"] {
+    @include form-elements();
+
+    &.half {
+      width: 42.5%;
+    }
+  }
+
+  textarea {
+    @include form-elements();
+    vertical-align: top;
+    resize: vertical;
   }
 
   ::placeholder {

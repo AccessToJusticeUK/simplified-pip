@@ -2,17 +2,20 @@
   <article>
     <section>
         <header>
-            <h1 v-if="model.title">{{model.title}}</h1>
-            <small v-if="model.description">{{ model.description }}</small>
+            <h2 v-if="title">{{ title }}</h2>
+            <small v-if="description">{{ description }}</small>
         </header>
         <div class="form">
-            <Questions :items="model.questions" />
+          <slot>This page has no content</slot>
+            <!-- <Questions :items="model.questions" /> -->
         </div>
         <footer>
             {{ pageNumber }}
         </footer>
     </section>
-    <aside v-if="model.guidance" v-html="model.guidance" />
+    <aside>
+      <slot name="guidance" />
+    </aside>
   </article>
 </template>
 
@@ -20,9 +23,10 @@
 import Questions from './Questions.vue'
 
 export default {
-  name: 'Section',
+  name: 'Page',
   props: {
-    model: Object,
+    title: String,
+    description: String,
     pageNumber: Number
   },
   components: {
@@ -32,11 +36,16 @@ export default {
 </script>
 
 <style scoped lang="scss">
-$grey-colour: rgb(102, 102, 102);
-$border-colour: rgb(210, 210, 210);
 
+$border-colour: rgb(210, 210, 210);
 $section-padding: 50px;
 $section-margin-bottom: 37px;
+
+@mixin heading-normaliser {
+  margin-top: 0;
+  margin-bottom: 2px;
+  font-weight: normal;
+}
 
 article {
   display: flex;
@@ -60,12 +69,18 @@ section {
   page-break-inside: avoid;
   page-break-after: always;
 
-  & > header {
-    color: $grey-colour;
+  h1 {
+    @include heading-normaliser();
+    font-size: 2em;
+  }
 
-    & > h1 {
-      border-bottom: 1px solid $border-colour;
-    }
+  h2, h3 {
+    @include heading-normaliser();
+    border-bottom: 1px solid $border-colour;
+  }
+
+  h2 {
+    font-size: 1.6em;
   }
 
   footer {
@@ -76,13 +91,28 @@ section {
 }
 
 aside {
-  width: 300px;
-  margin-top: 50px;
+  width: 258px;
   margin-left: 25px;
   margin-bottom: calc($section-margin-bottom + $section-padding);
 
-  font-size: 14px;
-  font-weight: 300;
+  font-size: 13px;
+  font-weight: 400;
   color: #333;
+
+  header {
+    h1, h2 {
+      margin: 0;
+    }
+    h1 {
+      font-size: 1.4em;
+    }
+    h2 {
+      font-size: 1em;
+    }
+  }
+
+  small {
+    font-size: 0.9em;
+  }
 }
 </style>
