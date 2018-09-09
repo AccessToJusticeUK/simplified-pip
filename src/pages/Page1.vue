@@ -1,13 +1,13 @@
 <template>
     <Page page-number="1" title="Section 1">
-        <label for="name">Name</label>
-        <input type="text" placeholder="Applicant's full legal name" id="name" name="name" />
+        <SingleLineTextBox id="name" label="Name"
+                           placeholder="Applicant's full legal name" />
 
-        <label for="address">Address</label>
-        <textarea id="address" name="address" placeholder="Applicant's address" rows="5"></textarea>
+        <MultiLineTextBox id="address" label="Address"
+                          placeholder="Applicant's address" rows="5" />
 
-        <label for="ni-number">N.I. Number</label>
-        <input type="text" placeholder="Applicant's NI Number e.g. AA 11 22 33 B" id="ni-number" name="ni-number" class="half" />
+        <SingleLineTextBox id="ni-number" label="N.I. Number"
+                           placeholder="Applicant's NI Number e.g. AA 11 22 33 B" half="true" />
 
         <Divider title="About your health professionals"
                  description="If we need additional information we may contact the health professionals that support you." />
@@ -52,12 +52,16 @@
 <script>
 import Page from '../components/Page.vue'
 import Question from '../components/Question.vue'
+import SingleLineTextBox from '../components/questionTypes/SingleLineTextBox.vue'
+import MultiLineTextBox from '../components/questionTypes/MultiLineTextBox.vue'
 import Divider from '../components/Divider.vue'
 
 export default {
   components: {
     Page,
     Question,
+    SingleLineTextBox,
+    MultiLineTextBox,
     Divider
   }
 }

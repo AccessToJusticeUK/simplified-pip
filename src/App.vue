@@ -327,6 +327,14 @@ input, textarea {
     margin: 12.5px 0;
   }
 
+  span.check {
+    $check-width: 30px;
+
+    display: inline-block;
+    margin-left: -$check-width;
+    width: $check-width;
+  }
+
   label {
     display: inline-block;
     width: 15%;

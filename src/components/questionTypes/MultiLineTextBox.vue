@@ -1,7 +1,8 @@
 <template>
-    <div class="question multi-line">
+    <div>
         <span class="check" v-if="text">✔</span>
-        <textarea :placeholder="placeholder" v-model="text"></textarea>
+        <label :for="id">{{ label }}</label>
+        <textarea :id="id" :name="id" :placeholder="placeholder" :rows="rows" v-model.lazy="text"></textarea>
     </div>
 </template>
 
@@ -12,7 +13,10 @@
 export default {
   name: 'MultiLineTextBox',
   props: {
-    placeholder: String
+    id: String,
+    label: String,
+    placeholder: String,
+    rows: [Number, String]
   },
   data: function () {
     return {
