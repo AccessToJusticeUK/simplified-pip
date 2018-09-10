@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="form-input">
         <span class="check" v-if="text">✔</span>
         <label :for="id">{{ label }}</label>
         <input type="text" v-model.lazy="text" :id="id" :name="id"

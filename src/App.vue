@@ -6,6 +6,8 @@
           <Page :pageNumber="page.pageNum" :model="page" />
         </div> -->
         <Page1 />
+        <Page2 />
+        <Page3 />
     </form>
   </div>
 </template>
@@ -14,13 +16,17 @@
 import SideNav from './components/SideNav.vue'
 // import Page from './components/Page.vue'
 import Page1 from './pages/Page1.vue'
+import Page2 from './pages/Page2.vue'
+import Page3 from './pages/Page3.vue'
 
 export default {
   name: 'app',
   components: {
     SideNav,
     // Page,
-    Page1
+    Page1,
+    Page2,
+    Page3
   },
   data: function () {
     return {
@@ -304,6 +310,28 @@ input, textarea {
   box-sizing: border-box;
 }
 
+$border-colour: rgb(210, 210, 210);
+
+@mixin heading-normaliser {
+  margin-top: 0;
+  margin-bottom: 2px;
+  font-weight: normal;
+}
+
+h1 {
+  @include heading-normaliser();
+  font-size: 2em;
+}
+
+h2, h3 {
+  @include heading-normaliser();
+  border-bottom: 1px solid $border-colour;
+}
+
+h2 {
+  font-size: 1.6em;
+}
+
 #app {
   font-family: "Open Sans Light", "Open Sans Regular", "Open Sans", sans-serif;
   font-weight: 300;
@@ -325,26 +353,41 @@ input, textarea {
 
   @mixin form-spacing {
     margin: 12.5px 0;
+    padding: 5px 0;
   }
 
   span.check {
     $check-width: 30px;
 
     display: inline-block;
-    margin-left: -$check-width;
     width: $check-width;
+
+    @include form-spacing();
+    margin-left: -$check-width;
+  }
+
+  div.form-input {
+    display: flex;
+    flex-direction: row;
+
+    & aside {
+      display: inline-block;
+      width: 258px;
+      margin: 12.5px -340px auto 80px;
+    }
   }
 
   label {
     display: inline-block;
-    width: 15%;
+    flex-basis: 15%;
     @include form-spacing();
   }
 
   @mixin form-elements {
     @include form-spacing();
 
-    width: 85%;
+    flex-basis: 85%;
+    flex-grow: 1;
     display: inline-block;
     padding: 5px;
     font-size: 14px;
@@ -366,7 +409,8 @@ input, textarea {
     @include form-elements();
 
     &.half {
-      width: 42.5%;
+      flex-basis: 42.5%;
+      flex-grow: 0;
     }
   }
 

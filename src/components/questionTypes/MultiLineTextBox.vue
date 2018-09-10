@@ -1,8 +1,11 @@
 <template>
-    <div>
+    <div class="form-input">
         <span class="check" v-if="text">✔</span>
-        <label :for="id">{{ label }}</label>
+        <label v-if="label" :for="id">{{ label }}</label>
         <textarea :id="id" :name="id" :placeholder="placeholder" :rows="rows" v-model.lazy="text"></textarea>
+        <aside v-if="this.$slots.default">
+          <slot />
+        </aside>
     </div>
 </template>
 

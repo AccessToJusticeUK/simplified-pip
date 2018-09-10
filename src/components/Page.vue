@@ -36,16 +36,8 @@ export default {
 </script>
 
 <style scoped lang="scss">
-
-$border-colour: rgb(210, 210, 210);
 $section-padding: 50px;
 $section-margin-bottom: 37px;
-
-@mixin heading-normaliser {
-  margin-top: 0;
-  margin-bottom: 2px;
-  font-weight: normal;
-}
 
 article {
   display: flex;
@@ -68,20 +60,6 @@ section {
 
   page-break-inside: avoid;
   page-break-after: always;
-
-  h1 {
-    @include heading-normaliser();
-    font-size: 2em;
-  }
-
-  h2, h3 {
-    @include heading-normaliser();
-    border-bottom: 1px solid $border-colour;
-  }
-
-  h2 {
-    font-size: 1.6em;
-  }
 
   footer {
     align-self: flex-end;
