@@ -938,10 +938,11 @@ body {
     border-bottom-color: #e4e4e4;
   }
 
-textarea {
+textarea, input[type="text"] {
   font-size: 14px;
+  font-family: inherit;
 }
-  .question.multi-line textarea {
+  .question.multi-line textarea{
     width: 100%;
     padding: 5px;
     font-size: 14px;
