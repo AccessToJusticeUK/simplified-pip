@@ -255,7 +255,11 @@ export default {
           title:
             '',
           description: '',
-          guidance: '',
+          guidance: {
+            fileName: 'pageGuidance/Guide-Page-06.html',
+            preLoad: true,
+            cssClass: 'guidance-page'
+          },
           questions: [
 
             {
@@ -349,11 +353,7 @@ export default {
           title:
             ' ',
           description: '',
-          guidance: {
-            fileName: 'pageGuidance/Guide-Page-07.html',
-            preLoad: true,
-            cssClass: 'guidance-page'
-          },
+          guidance: '',
           questions: [
             {
               id: '18',
