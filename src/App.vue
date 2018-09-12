@@ -372,8 +372,17 @@ export default {
           pageNum: 7,
           title:
             'Section 3 – How your health condition or disability affects your day-to-day life ',
+<<<<<<< HEAD
           description: "",
           guidance:'',
+=======
+          description: '',
+          guidance: {
+            fileName: 'pageGuidance/Guide-Page-07.html',
+            preLoad: true,
+            cssClass: 'guidance-page'
+          },
+>>>>>>> added all guidance's (up to p19)
           questions: [
             {
               id: '3',
@@ -454,8 +463,17 @@ export default {
           pageNum: 9,
           title:
             'Section 3 – How your health condition or disability affects your day-to-day life ',
+<<<<<<< HEAD
           description: "",
           guidance:'',
+=======
+          description: '',
+          guidance: {
+            fileName: 'pageGuidance/Guide-Page-09.html',
+            preLoad: true,
+            cssClass: 'guidance-page'
+          },
+>>>>>>> added all guidance's (up to p19)
           questions: [
             {
               id: '3',
@@ -537,8 +555,17 @@ export default {
           pageNum: 11,
           title:
             'Section 3 – How your health condition or disability affects your day-to-day life ',
+<<<<<<< HEAD
           description: "",
           guidance:'',
+=======
+          description: '',
+          guidance: {
+            fileName: 'pageGuidance/Guide-Page-11.html',
+            preLoad: true,
+            cssClass: 'guidance-page'
+          },
+>>>>>>> added all guidance's (up to p19)
           questions: [
             {
               id: '3',
@@ -620,8 +647,17 @@ export default {
           pageNum: 13,
           title:
             'Section 3 – How your health condition or disability affects your day-to-day life ',
+<<<<<<< HEAD
           description: "",
           guidance:'',
+=======
+          description: '',
+          guidance: {
+            fileName: 'pageGuidance/Guide-Page-13.html',
+            preLoad: true,
+            cssClass: 'guidance-page'
+          },
+>>>>>>> added all guidance's (up to p19)
           questions: [
             {
               id: '3',
@@ -703,8 +739,17 @@ export default {
           pageNum: 15,
           title:
             'Section 3 – How your health condition or disability affects your day-to-day life ',
+<<<<<<< HEAD
           description: "",
           guidance:'',
+=======
+          description: '',
+          guidance: {
+            fileName: 'pageGuidance/Guide-Page-15.html',
+            preLoad: true,
+            cssClass: 'guidance-page'
+          },
+>>>>>>> added all guidance's (up to p19)
           questions: [
             {
               id: '3',
@@ -786,8 +831,17 @@ export default {
           pageNum: 17,
           title:
             'Section 3 – How your health condition or disability affects your day-to-day life ',
+<<<<<<< HEAD
           description: "",
           guidance:'',
+=======
+          description: '',
+          guidance: {
+            fileName: 'pageGuidance/Guide-Page-17.html',
+            preLoad: true,
+            cssClass: 'guidance-page'
+          },
+>>>>>>> added all guidance's (up to p19)
           questions: [
             {
               id: '3',
@@ -869,8 +923,17 @@ export default {
           pageNum: 19,
           title:
             'Section 3 – How your health condition or disability affects your day-to-day life ',
+<<<<<<< HEAD
           description: "",
           guidance:'',
+=======
+          description: '',
+          guidance: {
+            fileName: 'pageGuidance/Guide-Page-19.html',
+            preLoad: true,
+            cssClass: 'guidance-page'
+          },
+>>>>>>> added all guidance's (up to p19)
           questions: [
             {
               id: '3',
