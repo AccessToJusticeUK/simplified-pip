@@ -739,8 +739,7 @@ export default {
                 'Q9a Do you need to use an aid or appliance to communicate with others?',
               type: 'radio-group',
               description: '',
-              guidance:
-                '',
+              guidance: '',
               options: {
                 key: 'question-9a',
                 items: [
@@ -870,6 +869,441 @@ export default {
         },
         {
           pageNum: 19,
+          title:
+            ' ',
+          description: '',
+          guidance: '',
+          questions: [
+            {
+              id: '42',
+              title: 'Extra information – Reading',
+              description: '',
+              type: 'multi-line-textbox',
+              placeholder: 'type information here'
+            }
+          ]
+        },
+        {
+          pageNum: 20,
+          title:
+            ' ',
+          description: "",
+          guidance: {
+            fileName: 'pageGuidance/Guide-Page-18.html',
+            preLoad: true,
+            cssClass: 'guidance-page'
+          },
+          questions: [
+            {
+              id: '39',
+              title:
+                'Q10 Reading',
+              type: 'radio-group',
+              description: '',
+              guidance: '',
+              options: {
+                key: 'question-10',
+                items: []
+              }
+            },
+            {
+              id: '40',
+              title:
+                'Q10a Do you need to use an aid or appliance other than spectacles or contact lenses to read signs, symbols and words?',
+              type: 'radio-group',
+              description: '',
+              guidance:
+                '',
+              options: {
+                key: 'question-10a',
+                items: [
+                  {
+                    title: 'yes'
+                  },
+                  {
+                    title: 'no'
+                  },
+                  {
+                    title: 'sometimes'
+                  }
+                ]
+              }
+            },
+            {
+              id: '41',
+              title:
+                'Q10b Do you need help from another person to read or understand signs, symbols and words?',
+              type: 'radio-group',
+              description: '',
+              guidance:
+                '',
+              options: {
+                key: 'question-10b',
+                items: [
+                  {
+                    title: 'yes'
+                  },
+                  {
+                    title: 'no'
+                  },
+                  {
+                    title: 'sometimes'
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          pageNum: 21,
+          title:
+            ' ',
+          description: '',
+          guidance: '',
+          questions: [
+            {
+              id: '42',
+              title: 'Extra information – Reading',
+              description: '',
+              type: 'multi-line-textbox',
+              placeholder: 'type information here'
+            }
+          ]
+        },
+        {
+          pageNum: 22,
+          title:
+            ' ',
+          description: "",
+          guidance: {
+            fileName: 'pageGuidance/Guide-Page-18.html',
+            preLoad: true,
+            cssClass: 'guidance-page'
+          },
+          questions: [
+            {
+              id: '39',
+              title:
+                'Q10 Reading',
+              type: 'radio-group',
+              description: '',
+              guidance: '',
+              options: {
+                key: 'question-10',
+                items: []
+              }
+            },
+            {
+              id: '40',
+              title:
+                'Q10a Do you need to use an aid or appliance other than spectacles or contact lenses to read signs, symbols and words?',
+              type: 'radio-group',
+              description: '',
+              guidance:
+                '',
+              options: {
+                key: 'question-10a',
+                items: [
+                  {
+                    title: 'yes'
+                  },
+                  {
+                    title: 'no'
+                  },
+                  {
+                    title: 'sometimes'
+                  }
+                ]
+              }
+            },
+            {
+              id: '41',
+              title:
+                'Q10b Do you need help from another person to read or understand signs, symbols and words?',
+              type: 'radio-group',
+              description: '',
+              guidance:
+                '',
+              options: {
+                key: 'question-10b',
+                items: [
+                  {
+                    title: 'yes'
+                  },
+                  {
+                    title: 'no'
+                  },
+                  {
+                    title: 'sometimes'
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          pageNum: 23,
+          title:
+            ' ',
+          description: '',
+          guidance: '',
+          questions: [
+            {
+              id: '42',
+              title: 'Extra information – Reading',
+              description: '',
+              type: 'multi-line-textbox',
+              placeholder: 'type information here'
+            }
+          ]
+        },
+        {
+          pageNum: 24,
+          title:
+            ' ',
+          description: "",
+          guidance: {
+            fileName: 'pageGuidance/Guide-Page-18.html',
+            preLoad: true,
+            cssClass: 'guidance-page'
+          },
+          questions: [
+            {
+              id: '39',
+              title:
+                'Q10 Reading',
+              type: 'radio-group',
+              description: '',
+              guidance: '',
+              options: {
+                key: 'question-10',
+                items: []
+              }
+            },
+            {
+              id: '40',
+              title:
+                'Q10a Do you need to use an aid or appliance other than spectacles or contact lenses to read signs, symbols and words?',
+              type: 'radio-group',
+              description: '',
+              guidance:
+                '',
+              options: {
+                key: 'question-10a',
+                items: [
+                  {
+                    title: 'yes'
+                  },
+                  {
+                    title: 'no'
+                  },
+                  {
+                    title: 'sometimes'
+                  }
+                ]
+              }
+            },
+            {
+              id: '41',
+              title:
+                'Q10b Do you need help from another person to read or understand signs, symbols and words?',
+              type: 'radio-group',
+              description: '',
+              guidance:
+                '',
+              options: {
+                key: 'question-10b',
+                items: [
+                  {
+                    title: 'yes'
+                  },
+                  {
+                    title: 'no'
+                  },
+                  {
+                    title: 'sometimes'
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          pageNum: 25,
+          title:
+            ' ',
+          description: '',
+          guidance: '',
+          questions: [
+            {
+              id: '42',
+              title: 'Extra information – Reading',
+              description: '',
+              type: 'multi-line-textbox',
+              placeholder: 'type information here'
+            }
+          ]
+        },
+        {
+          pageNum: 26,
+          title:
+            ' ',
+          description: "",
+          guidance: {
+            fileName: 'pageGuidance/Guide-Page-18.html',
+            preLoad: true,
+            cssClass: 'guidance-page'
+          },
+          questions: [
+            {
+              id: '39',
+              title:
+                'Q10 Reading',
+              type: 'radio-group',
+              description: '',
+              guidance: '',
+              options: {
+                key: 'question-10',
+                items: []
+              }
+            },
+            {
+              id: '40',
+              title:
+                'Q10a Do you need to use an aid or appliance other than spectacles or contact lenses to read signs, symbols and words?',
+              type: 'radio-group',
+              description: '',
+              guidance:
+                '',
+              options: {
+                key: 'question-10a',
+                items: [
+                  {
+                    title: 'yes'
+                  },
+                  {
+                    title: 'no'
+                  },
+                  {
+                    title: 'sometimes'
+                  }
+                ]
+              }
+            },
+            {
+              id: '41',
+              title:
+                'Q10b Do you need help from another person to read or understand signs, symbols and words?',
+              type: 'radio-group',
+              description: '',
+              guidance:
+                '',
+              options: {
+                key: 'question-10b',
+                items: [
+                  {
+                    title: 'yes'
+                  },
+                  {
+                    title: 'no'
+                  },
+                  {
+                    title: 'sometimes'
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          pageNum: 27,
+          title:
+            ' ',
+          description: '',
+          guidance: '',
+          questions: [
+            {
+              id: '42',
+              title: 'Extra information – Reading',
+              description: '',
+              type: 'multi-line-textbox',
+              placeholder: 'type information here'
+            }
+          ]
+        },
+        {
+          pageNum: 28,
+          title:
+            ' ',
+          description: "",
+          guidance: {
+            fileName: 'pageGuidance/Guide-Page-18.html',
+            preLoad: true,
+            cssClass: 'guidance-page'
+          },
+          questions: [
+            {
+              id: '39',
+              title:
+                'Q10 Reading',
+              type: 'radio-group',
+              description: '',
+              guidance: '',
+              options: {
+                key: 'question-10',
+                items: []
+              }
+            },
+            {
+              id: '40',
+              title:
+                'Q10a Do you need to use an aid or appliance other than spectacles or contact lenses to read signs, symbols and words?',
+              type: 'radio-group',
+              description: '',
+              guidance:
+                '',
+              options: {
+                key: 'question-10a',
+                items: [
+                  {
+                    title: 'yes'
+                  },
+                  {
+                    title: 'no'
+                  },
+                  {
+                    title: 'sometimes'
+                  }
+                ]
+              }
+            },
+            {
+              id: '41',
+              title:
+                'Q10b Do you need help from another person to read or understand signs, symbols and words?',
+              type: 'radio-group',
+              description: '',
+              guidance:
+                '',
+              options: {
+                key: 'question-10b',
+                items: [
+                  {
+                    title: 'yes'
+                  },
+                  {
+                    title: 'no'
+                  },
+                  {
+                    title: 'sometimes'
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          pageNum: 29,
           title:
             ' ',
           description: '',
