@@ -1121,5 +1121,11 @@ h1 {
     textarea {
         border: none;
     }
+
+    .guidance-page td b {
+      white-space: nowrap;
+
+    }
+
   }
 </style>
