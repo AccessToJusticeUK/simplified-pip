@@ -3,13 +3,13 @@
         <table>
             <thead>
                 <tr>
-                    <th v-for="col in columns">{{col.title}}</th>
+                    <th v-for="(col, colIndex) in columns" v-bind:key="colIndex">{{col.title}}</th>
                     <th></th>
                 </tr>
             </thead>
             <tbody>
-                <tr v-for="(row, index) in rows">
-                    <td v-for="(col, colIndex) in columns">
+                <tr v-for="(row, index) in rows" v-bind:key="index">
+                    <td v-for="(col, colIndex) in columns" v-bind:key="colIndex">
                         <textarea
                             v-model="row[colIndex]"
                             :style="{width: col.widthPx + 'px'}"
