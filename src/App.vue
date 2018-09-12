@@ -165,7 +165,7 @@ export default {
           description:
             "Tell us in the rest of this form how your health conditions or disabilities affect your day-to-day activities.",
           guidance:{
-            fileName: "pageGuidance/Guide-Page-01.html",
+            fileName: "pageGuidance/Guide-Page-04.html",
             preLoad: true,
             cssClass: "guidance-page"
           },
