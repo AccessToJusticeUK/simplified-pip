@@ -38,9 +38,9 @@ export default {
           questions: [
             {
               id: "1",
-              title: "First question",
+              title: "Name",
               type: "single-line-textbox",
-              placeholder: "Enter something",
+              placeholder: "Enter your name here",
               description: ""
             },
             {
@@ -464,7 +464,417 @@ export default {
               placeholder: 'type information here'
             }
           ]
-        }
+        },
+        {
+          pageNum: 10,
+          title:
+            'Section 3 – How your health condition or disability affects your day-to-day life ',
+          description: "",
+          guidance:'',
+          questions: [
+            {
+              id: '8',
+              title:
+                'Q6 Washing and bathing',
+              type: 'radio-group',
+              description: '',
+              guidance: '',
+              options: {
+                key: 'question-6',
+                items: []
+              }
+            },
+            {
+              id: '8',
+              title:
+                'Q6a Do you need to use an aid or appliance to wash and bathe yourself, including using a bath or shower?',
+              type: 'radio-group',
+              description: '',
+              guidance:
+                '',
+              options: {
+                key: 'question-6a',
+                items: [
+                  {
+                    title: 'yes'
+                  },
+                  {
+                    title: 'no'
+                  },
+                  {
+                    title: 'sometimes'
+                  }
+                ]
+              }
+            },
+            {
+              id: '8',
+              title:
+                'Q6b Do you need help from another person to wash and bathe?',
+              type: 'radio-group',
+              description: '',
+              guidance:
+                '',
+              options: {
+                key: 'question-6b',
+                items: [
+                  {
+                    title: 'yes'
+                  },
+                  {
+                    title: 'no'
+                  },
+                  {
+                    title: 'sometimes'
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          pageNum: 11,
+          title:
+            'Section 3 – How your health condition or disability affects your day-to-day life ',
+          description: "",
+          guidance:'',
+          questions: [
+            {
+              id: '3',
+              title: 'Extra information – Washing and bathing',
+              type: 'multi-line-textbox',
+              placeholder: 'type information here'
+            }
+          ]
+        },
+        {
+          pageNum: 12,
+          title:
+            'Section 3 – How your health condition or disability affects your day-to-day life ',
+          description: "",
+          guidance:'',
+          questions: [
+            {
+              id: '8',
+              title:
+                'Q7 Managing toilet needs',
+              type: 'radio-group',
+              description: '',
+              guidance: '',
+              options: {
+                key: 'question-7',
+                items: []
+              }
+            },
+            {
+              id: '8',
+              title:
+                'Q7a do you need to use an aid or appliance to use the toilet or manage incontinence?',
+              type: 'radio-group',
+              description: '',
+              guidance:
+                '',
+              options: {
+                key: 'question-7a',
+                items: [
+                  {
+                    title: 'yes'
+                  },
+                  {
+                    title: 'no'
+                  },
+                  {
+                    title: 'sometimes'
+                  }
+                ]
+              }
+            },
+            {
+              id: '8',
+              title:
+                'Q7b do you need help from another person to use the toilet or manage incontinence?',
+              type: 'radio-group',
+              description: '',
+              guidance:
+                '',
+              options: {
+                key: 'question-7b',
+                items: [
+                  {
+                    title: 'yes'
+                  },
+                  {
+                    title: 'no'
+                  },
+                  {
+                    title: 'sometimes'
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          pageNum: 13,
+          title:
+            'Section 3 – How your health condition or disability affects your day-to-day life ',
+          description: "",
+          guidance:'',
+          questions: [
+            {
+              id: '3',
+              title: 'Extra information – managing toilet needs',
+              type: 'multi-line-textbox',
+              placeholder: 'type information here'
+            }
+          ]
+        },
+        {
+          pageNum: 14,
+          title:
+            'Section 3 – How your health condition or disability affects your day-to-day life ',
+          description: "",
+          guidance:'',
+          questions: [
+            {
+              id: '8',
+              title:
+                'Q8 Dressing and undressing',
+              type: 'radio-group',
+              description: '',
+              guidance: '',
+              options: {
+                key: 'question-8',
+                items: []
+              }
+            },
+            {
+              id: '8',
+              title:
+                'Q8a do you need to use and aid or appliance to dress or undress?',
+              type: 'radio-group',
+              description: '',
+              guidance:
+                '',
+              options: {
+                key: 'question-8a',
+                items: [
+                  {
+                    title: 'yes'
+                  },
+                  {
+                    title: 'no'
+                  },
+                  {
+                    title: 'sometimes'
+                  }
+                ]
+              }
+            },
+            {
+              id: '8',
+              title:
+                'Q8b Do you need help from another person to dress or undress?',
+              type: 'radio-group',
+              description: '',
+              guidance:
+                '',
+              options: {
+                key: 'question-8b',
+                items: [
+                  {
+                    title: 'yes'
+                  },
+                  {
+                    title: 'no'
+                  },
+                  {
+                    title: 'sometimes'
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          pageNum: 15,
+          title:
+            'Section 3 – How your health condition or disability affects your day-to-day life ',
+          description: "",
+          guidance:'',
+          questions: [
+            {
+              id: '3',
+              title: 'Extra information – Dressing and undressing',
+              type: 'multi-line-textbox',
+              placeholder: 'type information here'
+            }
+          ]
+        },
+        {
+          pageNum: 16,
+          title:
+            'Section 3 – How your health condition or disability affects your day-to-day life ',
+          description: "",
+          guidance:'',
+          questions: [
+            {
+              id: '8',
+              title:
+                'Q9 Communicating',
+              type: 'radio-group',
+              description: '',
+              guidance: '',
+              options: {
+                key: 'question-9',
+                items: []
+              }
+            },
+            {
+              id: '8',
+              title:
+                'Q9a Do you need to use an aid or appliance to communicate with others?',
+              type: 'radio-group',
+              description: '',
+              guidance:
+                '',
+              options: {
+                key: 'question-9a',
+                items: [
+                  {
+                    title: 'yes'
+                  },
+                  {
+                    title: 'no'
+                  },
+                  {
+                    title: 'sometimes'
+                  }
+                ]
+              }
+            },
+            {
+              id: '8',
+              title:
+                'Q9b Do you need help from another person to communicate with others?',
+              type: 'radio-group',
+              description: '',
+              guidance:
+                '',
+              options: {
+                key: 'question-9b',
+                items: [
+                  {
+                    title: 'yes'
+                  },
+                  {
+                    title: 'no'
+                  },
+                  {
+                    title: 'sometimes'
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          pageNum: 17,
+          title:
+            'Section 3 – How your health condition or disability affects your day-to-day life ',
+          description: "",
+          guidance:'',
+          questions: [
+            {
+              id: '3',
+              title: 'Extra information – Communicating',
+              type: 'multi-line-textbox',
+              placeholder: 'type information here'
+            }
+          ]
+        },
+        {
+          pageNum: 18,
+          title:
+            'Section 3 – How your health condition or disability affects your day-to-day life ',
+          description: "",
+          guidance:'',
+          questions: [
+            {
+              id: '8',
+              title:
+                'Q10 Reading',
+              type: 'radio-group',
+              description: '',
+              guidance: '',
+              options: {
+                key: 'question-10',
+                items: []
+              }
+            },
+            {
+              id: '8',
+              title:
+                'Q10a Do you need to use an aid or appliance other than spectacles or contact lenses to read signs, symbols and words?',
+              type: 'radio-group',
+              description: '',
+              guidance:
+                '',
+              options: {
+                key: 'question-10a',
+                items: [
+                  {
+                    title: 'yes'
+                  },
+                  {
+                    title: 'no'
+                  },
+                  {
+                    title: 'sometimes'
+                  }
+                ]
+              }
+            },
+            {
+              id: '8',
+              title:
+                'Q10b Do you need help from another person to read or understand signs, symbols and words?',
+              type: 'radio-group',
+              description: '',
+              guidance:
+                '',
+              options: {
+                key: 'question-10b',
+                items: [
+                  {
+                    title: 'yes'
+                  },
+                  {
+                    title: 'no'
+                  },
+                  {
+                    title: 'sometimes'
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          pageNum: 19,
+          title:
+            'Section 3 – How your health condition or disability affects your day-to-day life ',
+          description: "",
+          guidance:'',
+          questions: [
+            {
+              id: '3',
+              title: 'Extra information – Reading',
+              type: 'multi-line-textbox',
+              placeholder: 'type information here'
+            }
+          ]
+        },
 
       ]
     };
@@ -589,10 +999,10 @@ body {
     border-top-style: none;
     border-left-style: solid;
     border-bottom-style: none;
-    border-right-style: none;  
+    border-right-style: none;
     border-left-color: #ff6600;
-    
- 
+
+
   }
 
   .question .radio-group .option:first-of-type {
