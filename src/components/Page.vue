@@ -14,12 +14,15 @@
             </footer>
         </section>
     </div>
-      <div class="guidance-page" v-if="model.guidance" v-html="model.guidance"></div>
+      <div class="guidance-page" v-if="model.guidance">
+        <HelpText :model="model.guidance" />
+      </div>
     </div>
 </template>
 
 <script>
 import Questions from './Questions.vue'
+import HelpText from './HelpText.vue'
 
 export default {
   name: 'Section',
@@ -28,7 +31,8 @@ export default {
     pageNumber: Number
   },
   components: {
-    Questions
+    Questions,
+    HelpText
   }
 }
 </script>

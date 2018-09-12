@@ -5,7 +5,9 @@
 
             <h1 class="title">{{question.title}}</h1>
 
-            <div class="description" v-html="question.description"></div>
+            <div class="description">
+                <HelpText :model="question.description" />
+            </div>
 
             <SingleLineTextBox
                 v-if="question.type=='single-line-textbox'"
@@ -42,6 +44,7 @@ import SingleLineTextBox from './questionTypes/SingleLineTextBox.vue'
 import MultiLineTextBox from './questionTypes/MultiLineTextBox.vue'
 import RadioGroup from './questionTypes/RadioGroup.vue'
 import Table from './questionTypes/Tables.vue'
+import HelpText from './HelpText.vue'
 
 export default {
   name: 'Questions',
@@ -52,7 +55,8 @@ export default {
     SingleLineTextBox,
     MultiLineTextBox,
     RadioGroup,
-    Table
+    Table,
+    HelpText
   },
   data: function () {
     return {}

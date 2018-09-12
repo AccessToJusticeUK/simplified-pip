@@ -3,7 +3,7 @@
     <SideNav />
     <div id="content">
 
-      <div v-for="page in pages">
+      <div v-for="page in pages" v-bind:key="page.pageNum">
         <Page :pageNumber="page.pageNum" :model="page" />
       </div>
 
@@ -29,8 +29,11 @@ export default {
           pageNum: 1,
           title: "Section 1",
           description: "",
-          guidance:
-            '<div id="u75_text" class="text "><p style="font-size:20px;line-height:18px;"><span style="font-family:\'Open Sans Light\', \'Open Sans Regular\', \'Open Sans\';font-weight:300;font-style:normal;">Welcome to Simplified PiP</span><span style="font-family:\'Open Sans\';font-weight:400;font-style:normal;font-size:16px;"> </span></p><p style="font-size:14px;line-height:18px;"><span style="font-family:\'Open Sans\';font-weight:400;font-style:normal;">for agencies assisting clients</span><span style="font-family:\'Open Sans\';font-weight:400;font-style:normal;font-size:13px;"> </span></p><p style="font-size:13px;line-height:6px;"><span style="font-family:\'Open Sans\';font-weight:400;font-style:normal;"><br></span></p><p style="font-size:13px;line-height:18px;"><span style="font-family:\'Open Sans\';font-weight:400;font-style:normal;"><br></span></p><p style="font-size:13px;line-height:18px;"><span style="font-family:\'Open Sans\';font-weight:400;font-style:normal;">This form will allow you to type up a PiP application and then print it in a format for submission to DWP. </span></p><p style="font-size:13px;line-height:18px;"><span style="font-family:\'Open Sans\';font-weight:400;font-style:normal;"><br></span></p><p style="font-size:13px;line-height:18px;"><span style="font-family:\'Open Sans Italic\', \'Open Sans Regular\', \'Open Sans\';font-weight:400;font-style:italic;">Please note that in this current version you will need to add these print outs to the DWP supplied form and post them together.</span></p><p style="font-size:13px;line-height:18px;"><span style="font-family:\'Open Sans\';font-weight:400;font-style:normal;"><br></span></p><p style="font-size:13px;line-height:18px;"><span style="font-family:\'Open Sans\';font-weight:400;font-style:normal;"><br></span></p><p style="font-size:11px;line-height:18px;"><span style="font-family:\'Open Sans Light\', \'Open Sans Regular\', \'Open Sans\';font-weight:300;font-style:normal;">The aim of this form is to help with assisting a client through the PiP application process. The form allows you to edit and change details of the application as you progress through the interview, resulting in a printed form that is fast to produce and easy to read.</span></p><p style="font-size:11px;line-height:18px;"><span style="font-family:\'Open Sans Light\', \'Open Sans Regular\', \'Open Sans\';font-weight:300;font-style:normal;"><br></span></p><p style="font-size:11px;line-height:18px;"><span style="font-family:\'Open Sans Light\', \'Open Sans Regular\', \'Open Sans\';font-weight:300;font-style:normal;">We also offer advice and tips to the right of the form to assist you with the completion of the form alongside the descriptors to make sure you accurately give the DWP the information they need to asses the application.</span></p><p style="font-size:11px;line-height:18px;"><span style="font-family:\'Open Sans Light\', \'Open Sans Regular\', \'Open Sans\';font-weight:300;font-style:normal;"><br></span></p><p style="font-size:11px;line-height:18px;"><span style="font-family:\'Open Sans Light\', \'Open Sans Regular\', \'Open Sans\';font-weight:300;font-style:normal;">This is an evolving project and we welcome your feedback. Please let us know what you think.</span></p>        </div>',
+          guidance: {
+            fileName: "g.html",
+            preLoad: true,
+            cssClass: "guidance-page"
+          },
 
           questions: [
             {
