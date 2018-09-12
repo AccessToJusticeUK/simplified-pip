@@ -30,7 +30,7 @@ export default {
           title: "Section 1",
           description: "",
           guidance: {
-            fileName: "g.html",
+            fileName: "pageGuidance/Guide-Page-01.html",
             preLoad: true,
             cssClass: "guidance-page"
           },
@@ -193,8 +193,11 @@ export default {
             "Section 3 – How your health condition or disability affects your day-to-day life",
           description:
             "Tell us in the rest of this form how your health conditions or disabilities affect your day-to-day activities.",
-          guidance:
-            '<div id="u218" class="ax_default heading_3"><div id="u218_div" class=""></div><div id="u218_text" class="text "><p><span>Descriptors for Q3</span></p></div></div><div id="u219" class="ax_default"> <!-- Unnamed (Table Cell) --> <div id="u220" class="ax_default table_cell"> <img id="u220_img" class="img " src="https://dxlfb468n8ekd.cloudfront.net/gsc/1A51QE/89/6d/9f/896d9fc8865f40cdb1efd13a7834d720/images/simplified_pip_for_agencies/u220.png?token=f03071042117d73cb14780df81d37a7c"> <div id="u220_text" class="text "> <p><span>a. Can prepare and cook a simple meal unaided.</span></p> </div> </div> <!-- Unnamed (Table Cell) --> <div id="u221" class="ax_default table_cell"> <img id="u221_img" class="img " src="https://d2t44wh9rnwl5y.cloudfront.net/gsc/1A51QE/89/6d/9f/896d9fc8865f40cdb1efd13a7834d720/images/simplified_pip_for_agencies/u221.png?token=5a17e2f927a6275c9dcfeb5112be14c5"> <div id="u221_text" class="text "> <p><span>0 points</span></p> </div> </div> <!-- Unnamed (Table Cell) --> <div id="u222" class="ax_default table_cell"> <img id="u222_img" class="img " src="https://d26uhratvi024l.cloudfront.net/gsc/1A51QE/89/6d/9f/896d9fc8865f40cdb1efd13a7834d720/images/simplified_pip_for_agencies/u222.png?token=1cc055114f55020c92f1c651482a7dd5"> <div id="u222_text" class="text "> <p><span style="font-family:\'Open Sans\';font-weight:400;">b. Needs to use an aid or appliance to be able to either prepare or cook a simple meal.</span><span style="font-family:\'Open Sans Bold\', \'Open Sans Regular\', \'Open Sans\';font-weight:700;"> </span></p> </div> </div> <!-- Unnamed (Table Cell) --> <div id="u223" class="ax_default table_cell"> <img id="u223_img" class="img " src="https://d2v8ggac1o0f6z.cloudfront.net/gsc/1A51QE/89/6d/9f/896d9fc8865f40cdb1efd13a7834d720/images/simplified_pip_for_agencies/u223.png?token=60386fb5a2a7c314518008740ebbe22e"> <div id="u223_text" class="text "> <p><span>2 points</span></p> </div> </div> <!-- Unnamed (Table Cell) --> <div id="u224" class="ax_default table_cell"> <img id="u224_img" class="img " src="https://dxlfb468n8ekd.cloudfront.net/gsc/1A51QE/89/6d/9f/896d9fc8865f40cdb1efd13a7834d720/images/simplified_pip_for_agencies/u224.png?token=676bcfe19995d66181203a710f6facba"> <div id="u224_text" class="text "> <p><span style="font-family:\'Open Sans\';font-weight:400;">c. Cannot cook a simple meal using a conventional cooker but is able to do so using a microwave.</span><span style="font-family:\'Open Sans Bold\', \'Open Sans Regular\', \'Open Sans\';font-weight:700;"> </span></p> </div> </div> <!-- Unnamed (Table Cell) --> <div id="u225" class="ax_default table_cell"> <img id="u225_img" class="img " src="https://d2t44wh9rnwl5y.cloudfront.net/gsc/1A51QE/89/6d/9f/896d9fc8865f40cdb1efd13a7834d720/images/simplified_pip_for_agencies/u225.png?token=0b54635d312b84dd128efe22b617d2e7"> <div id="u225_text" class="text "> <p><span>2 points</span></p> </div> </div> <!-- Unnamed (Table Cell) --> <div id="u226" class="ax_default table_cell"> <img id="u226_img" class="img " src="https://d26uhratvi024l.cloudfront.net/gsc/1A51QE/89/6d/9f/896d9fc8865f40cdb1efd13a7834d720/images/simplified_pip_for_agencies/u226.png?token=8ff4d47ebd1a4729ab93fdfcc0d7f89e"> <div id="u226_text" class="text "> <p><span>d. Needs prompting to be able to either prepare or&nbsp; cook a simple meal.</span></p> </div> </div> <!-- Unnamed (Table Cell) --> <div id="u227" class="ax_default table_cell"> <img id="u227_img" class="img " src="https://d2v8ggac1o0f6z.cloudfront.net/gsc/1A51QE/89/6d/9f/896d9fc8865f40cdb1efd13a7834d720/images/simplified_pip_for_agencies/u227.png?token=c7e37c44cddd7bb89ff556793cefef3a"> <div id="u227_text" class="text "> <p><span>2 points</span></p> </div> </div> <!-- Unnamed (Table Cell) --> <div id="u228" class="ax_default table_cell"> <img id="u228_img" class="img " src="https://dxlfb468n8ekd.cloudfront.net/gsc/1A51QE/89/6d/9f/896d9fc8865f40cdb1efd13a7834d720/images/simplified_pip_for_agencies/u228.png?token=dc8ab7ec75b9bf5d7125bfcb665ebeda"> <div id="u228_text" class="text "> <p><span style="font-family:\'Open Sans\';font-weight:400;">e. Needs supervision or assistance to either prepare or cook a simple meal.</span><span style="font-family:\'Open Sans Bold\', \'Open Sans Regular\', \'Open Sans\';font-weight:700;"> </span></p> </div> </div> <!-- Unnamed (Table Cell) --> <div id="u229" class="ax_default table_cell"> <img id="u229_img" class="img " src="https://d2t44wh9rnwl5y.cloudfront.net/gsc/1A51QE/89/6d/9f/896d9fc8865f40cdb1efd13a7834d720/images/simplified_pip_for_agencies/u229.png?token=0b65653af1a7a9401fdbcb2ad6ea17ed"> <div id="u229_text" class="text "> <p><span>4 points</span></p> </div> </div> <!-- Unnamed (Table Cell) --> <div id="u230" class="ax_default table_cell"> <img id="u230_img" class="img " src="https://dxlfb468n8ekd.cloudfront.net/gsc/1A51QE/89/6d/9f/896d9fc8865f40cdb1efd13a7834d720/images/simplified_pip_for_agencies/u230.png?token=dcc40ba5cfd554f6e56af6dd1fb2f748"> <div id="u230_text" class="text "> <p><span style="font-family:\'Open Sans\';font-weight:400;">f. Cannot prepare and cook food.</span><span style="font-family:\'Open Sans Bold\', \'Open Sans Regular\', \'Open Sans\';font-weight:700;"> </span></p> </div> </div> <!-- Unnamed (Table Cell) --> <div id="u231" class="ax_default table_cell"> <img id="u231_img" class="img " src="https://d2t44wh9rnwl5y.cloudfront.net/gsc/1A51QE/89/6d/9f/896d9fc8865f40cdb1efd13a7834d720/images/simplified_pip_for_agencies/u231.png?token=b4ee4fdf316bfe940e3489adf585d809"> <div id="u231_text" class="text "> <p><span>8 points</span></p> </div> </div> </div><div id="u233" class="ax_default box_1"> <div id="u233_div" class=""></div> <div id="u233_text" class="text "> <p><span>It\'s helpful to base your answers on this example: peel, chop and boil 2 large potatoes, open a tin of sweetcorn and fry a small piece of meat or fish.</span></p><p><span><br></span></p><p><span>Applicants with a hearing impairment or visual impairment may also have problems preparing food.</span></p> </div> </div><div id="u234" class="ax_default box_1"> <div id="u234_div" class=""></div> <div id="u234_text" class="text "> <p><span>Never miss out an aid off the list if you think it\'s obvious.</span></p><p><span><br></span></p><p><span>Remember a prosthetic limb and a walking stick are both considered aids.</span></p> </div> </div>',
+          guidance:{
+            fileName: "pageGuidance/Guide-Page-01.html",
+            preLoad: true,
+            cssClass: "guidance-page"
+          },
           questions: [
             {
               id: "8",
@@ -372,17 +375,12 @@ export default {
           pageNum: 7,
           title:
             'Section 3 – How your health condition or disability affects your day-to-day life ',
-<<<<<<< HEAD
-          description: "",
-          guidance:'',
-=======
           description: '',
           guidance: {
             fileName: 'pageGuidance/Guide-Page-07.html',
             preLoad: true,
             cssClass: 'guidance-page'
           },
->>>>>>> added all guidance's (up to p19)
           questions: [
             {
               id: '3',
@@ -463,17 +461,12 @@ export default {
           pageNum: 9,
           title:
             'Section 3 – How your health condition or disability affects your day-to-day life ',
-<<<<<<< HEAD
-          description: "",
-          guidance:'',
-=======
           description: '',
           guidance: {
             fileName: 'pageGuidance/Guide-Page-09.html',
             preLoad: true,
             cssClass: 'guidance-page'
           },
->>>>>>> added all guidance's (up to p19)
           questions: [
             {
               id: '3',
@@ -555,17 +548,12 @@ export default {
           pageNum: 11,
           title:
             'Section 3 – How your health condition or disability affects your day-to-day life ',
-<<<<<<< HEAD
-          description: "",
-          guidance:'',
-=======
           description: '',
           guidance: {
             fileName: 'pageGuidance/Guide-Page-11.html',
             preLoad: true,
             cssClass: 'guidance-page'
           },
->>>>>>> added all guidance's (up to p19)
           questions: [
             {
               id: '3',
@@ -647,17 +635,12 @@ export default {
           pageNum: 13,
           title:
             'Section 3 – How your health condition or disability affects your day-to-day life ',
-<<<<<<< HEAD
-          description: "",
-          guidance:'',
-=======
           description: '',
           guidance: {
             fileName: 'pageGuidance/Guide-Page-13.html',
             preLoad: true,
             cssClass: 'guidance-page'
           },
->>>>>>> added all guidance's (up to p19)
           questions: [
             {
               id: '3',
@@ -739,17 +722,12 @@ export default {
           pageNum: 15,
           title:
             'Section 3 – How your health condition or disability affects your day-to-day life ',
-<<<<<<< HEAD
-          description: "",
-          guidance:'',
-=======
           description: '',
           guidance: {
             fileName: 'pageGuidance/Guide-Page-15.html',
             preLoad: true,
             cssClass: 'guidance-page'
           },
->>>>>>> added all guidance's (up to p19)
           questions: [
             {
               id: '3',
@@ -831,17 +809,12 @@ export default {
           pageNum: 17,
           title:
             'Section 3 – How your health condition or disability affects your day-to-day life ',
-<<<<<<< HEAD
-          description: "",
-          guidance:'',
-=======
           description: '',
           guidance: {
             fileName: 'pageGuidance/Guide-Page-17.html',
             preLoad: true,
             cssClass: 'guidance-page'
           },
->>>>>>> added all guidance's (up to p19)
           questions: [
             {
               id: '3',
@@ -923,17 +896,12 @@ export default {
           pageNum: 19,
           title:
             'Section 3 – How your health condition or disability affects your day-to-day life ',
-<<<<<<< HEAD
-          description: "",
-          guidance:'',
-=======
           description: '',
           guidance: {
             fileName: 'pageGuidance/Guide-Page-19.html',
             preLoad: true,
             cssClass: 'guidance-page'
           },
->>>>>>> added all guidance's (up to p19)
           questions: [
             {
               id: '3',
@@ -958,12 +926,12 @@ h1 {
     margin-top: 0;
     margin-bottom: 0;
   }
-  
+
   body {
     background-color: rgba(242, 242, 242, 1);
     margin-top: 0;
   }
-  
+
   #app {
     font-family: "Open Sans Light", "Open Sans Regular", "Open Sans", sans-serif;
     font-weight: 300;
@@ -972,13 +940,13 @@ h1 {
     color: #2c3e50;
     display: flex;
     justify-content: flex-start;
-  
+
     .guidance-page {
       font-size: 14px;
       font-weight: 300;
       color: #333;
     }
-  
+
     .question {
       margin-bottom: 20px;
     }
@@ -988,7 +956,7 @@ h1 {
       font-weight: 400;
       line-height: 22px;
     }
-  
+
     .question.single-line input[type="text"] {
       width: 100%;
       padding: 5px;
@@ -1005,7 +973,7 @@ h1 {
       border-bottom-width: 1px;
       border-bottom-color: #e4e4e4;
     }
-  
+
   textarea, input[type="text"] {
     font-size: 14px;
     font-family: inherit;
@@ -1026,35 +994,35 @@ h1 {
       border-bottom-width: 1px;
       border-bottom-color: #e4e4e4;
     }
-  
+
     ::placeholder, textarea::placeholder{
       color: #999;
       font-style: italic;
       font-family: Arial;
     }
-  
+
     .subsection h2 {
       font-size: 20px;
       color: #666666;
       font-weight: 200;
     }
-  
+
     #section {
       float: left;
     }
-  
+
     .subsection div {
       font-size: 12px;
       color: #797979;
       line-height: 18px;
     }
-  
+
     .question h1.title {
       font-size: 16px;
       color: #333;
       font-weight: 600;
     }
-  
+
     .question .description {
       font-size: 12px;
       font-weight: 400;
@@ -1075,7 +1043,7 @@ h1 {
       border-bottom-style: none;
       border-right-style: none;
       border-left-color: #ff6600;
-  
+
     }
 
     .option, .table tbody tr {
@@ -1089,45 +1057,43 @@ h1 {
         display: inline-block;
       }
     }
-    
+
     .question .radio-group .option:first-of-type {
       border-width: 3px;
     }
     .question .radio-group .option {
       border-width: 1px;
     }
-  
+
     .guidance-page {
       float: left;
       width: 300px;
       margin-top: 40px;
       margin-left: 25px;
     }
-  
+
     #content {
       margin-top: 95px;
       display: flex;
       flex-direction: column;
     }
-  
+
     .question .table {
       table-layout: fixed;
 
-      .table-add-button, .table-delete-button {
+      .table-add-button {
         float: right;
         margin-right: 5px;
         background-color: #0067b1;
         border-radius: 6px;
         color: #eee;
-        border: none;
-        padding: 5px 3px;
       }
     }
-    
+
     td {
       vertical-align: top;
     }
-  
+
     table {
       margin-bottom: 10px;
       td {
@@ -1139,7 +1105,7 @@ h1 {
         margin: 0;
       }
     }
-  
+
     textarea {
         border: none;
     }
