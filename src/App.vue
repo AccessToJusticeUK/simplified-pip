@@ -365,10 +365,13 @@ export default {
         },
         {
           pageNum: 8,
-          title:
-            ' ',
+          title: '',
           description: "",
-          guidance:'',
+          guidance:{
+            fileName: 'pageGuidance/Guide-Page-08.html',
+            preLoad: true,
+            cssClass: 'guidance-page'
+          },
           questions: [
             {
               id: '19',
@@ -435,11 +438,7 @@ export default {
           title:
             ' ',
           description: '',
-          guidance: {
-            fileName: 'pageGuidance/Guide-Page-09.html',
-            preLoad: true,
-            cssClass: 'guidance-page'
-          },
+          guidance: '',
           questions: [
             {
               id: '22',
@@ -455,7 +454,11 @@ export default {
           title:
             ' ',
           description: "",
-          guidance:'',
+          guidance: {
+            fileName: 'pageGuidance/Guide-Page-10.html',
+            preLoad: true,
+            cssClass: 'guidance-page'
+          },
           questions: [
             {
               id: '23',
@@ -522,11 +525,7 @@ export default {
           title:
             ' ',
           description: '',
-          guidance: {
-            fileName: 'pageGuidance/Guide-Page-11.html',
-            preLoad: true,
-            cssClass: 'guidance-page'
-          },
+          guidance: '',
           questions: [
             {
               id: '26',
@@ -542,7 +541,11 @@ export default {
           title:
             ' ',
           description: "",
-          guidance:'',
+          guidance: {
+            fileName: 'pageGuidance/Guide-Page-12.html',
+            preLoad: true,
+            cssClass: 'guidance-page'
+          },
           questions: [
             {
               id: '27',
@@ -609,11 +612,7 @@ export default {
           title:
             ' ',
           description: '',
-          guidance: {
-            fileName: 'pageGuidance/Guide-Page-13.html',
-            preLoad: true,
-            cssClass: 'guidance-page'
-          },
+          guidance: '',
           questions: [
             {
               id: '30',
@@ -629,7 +628,11 @@ export default {
           title:
             ' ',
           description: "",
-          guidance:'',
+          guidance: {
+            fileName: 'pageGuidance/Guide-Page-14.html',
+            preLoad: true,
+            cssClass: 'guidance-page'
+          },
           questions: [
             {
               id: '31',
@@ -696,11 +699,7 @@ export default {
           title:
             ' ',
           description: '',
-          guidance: {
-            fileName: 'pageGuidance/Guide-Page-15.html',
-            preLoad: true,
-            cssClass: 'guidance-page'
-          },
+          guidance: '',
           questions: [
             {
               id: '34',
@@ -716,7 +715,11 @@ export default {
           title:
             ' ',
           description: "",
-          guidance:'',
+          guidance: {
+            fileName: 'pageGuidance/Guide-Page-16.html',
+            preLoad: true,
+            cssClass: 'guidance-page'
+          },
           questions: [
             {
               id: '35',
@@ -783,11 +786,7 @@ export default {
           title:
             ' ',
           description: '',
-          guidance: {
-            fileName: 'pageGuidance/Guide-Page-17.html',
-            preLoad: true,
-            cssClass: 'guidance-page'
-          },
+          guidance: '',
           questions: [
             {
               id: '38',
@@ -803,7 +802,11 @@ export default {
           title:
             ' ',
           description: "",
-          guidance:'',
+          guidance: {
+            fileName: 'pageGuidance/Guide-Page-18.html',
+            preLoad: true,
+            cssClass: 'guidance-page'
+          },
           questions: [
             {
               id: '39',
@@ -870,11 +873,7 @@ export default {
           title:
             ' ',
           description: '',
-          guidance: {
-            fileName: 'pageGuidance/Guide-Page-19.html',
-            preLoad: true,
-            cssClass: 'guidance-page'
-          },
+          guidance: '',
           questions: [
             {
               id: '42',
