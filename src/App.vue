@@ -912,7 +912,7 @@ body {
   }
 
   .question {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
   .question h1.title {
     font-size: 16px;
@@ -991,6 +991,7 @@ textarea, input[type="text"] {
     font-size: 12px;
     font-weight: 400;
     color: #666666;
+    margin: 20px 0;
   }
   .radio-group {
     margin-top: 20px;
