@@ -583,15 +583,20 @@ body {
     font-weight: 400;
     padding: 10px;
     padding-right: 20px;
-    border-style: solid;
-    border-left-width: 3px;
+    border-top-style: none;
+    border-left-style: solid;
+    border-bottom-style: none;
+    border-right-style: none;  
     border-left-color: #ff6600;
-    border-top-width: 1px;
-    border-top-color: #e4e4e4;
-    border-right-width: 1px;
-    border-right-color: #e4e4e4;
-    border-bottom-width: 1px;
-    border-bottom-color: #e4e4e4;
+    
+ 
+  }
+
+  .question .radio-group .option:first-of-type {
+    border-width: 5px;
+  }
+  .question .radio-group .option {
+    border-width: 1px;
   }
 
   .guidance-page {
