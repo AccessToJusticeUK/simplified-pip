@@ -10,6 +10,7 @@
             <tbody>
                 <tr v-for="(row, index) in rows" v-bind:key="index">
                     <td v-for="(col, colIndex) in columns" v-bind:key="colIndex">
+                        
                         <textarea
                             v-model="row[colIndex]"
                             :style="{width: col.widthPx + 'px'}"

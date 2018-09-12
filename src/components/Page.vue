@@ -68,6 +68,7 @@ $border-colour: rgb(210, 210, 210);
   footer {
     align-self: flex-end;
     text-align: right;
+    clear: both;
     margin-top: auto; // push the footer to the bottom
   }
 }

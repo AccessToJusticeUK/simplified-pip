@@ -136,47 +136,24 @@ export default {
           guidance: "",
           questions: [
             {
-              id: "7",
-              title: "Radio Group question",
-              type: "radio-group",
-              guidance: "string",
-              options: {
-                key: "question-4",
-                items: [
-                  {
-                    title: "yes"
-                  },
-                  {
-                    title: "no"
-                  },
-                  {
-                    title: "sometimes"
-                  }
-                ]
-              }
-            },
-            {
-              id: "8",
-              title:
-                "Q2a tell us in the space below what your health conditions or disabilities are, and approximately when each of these started.",
+              id: "9",
+              title: "Q2a tell us in the space below what your health conditions or disabilities are, and approximately when each of these started",
               type: "table",
-              description:
-                "We will ask you how your health conditions or disabilities affect how you carry out day-to-day activities in the rest of the form.",
-
-              columns: [
+              description: "We will ask you how your health conditions or disabilities affect how you carry out day-to-day activities in the rest of the form.",
+               columns: [
                 {
                   title: "Health condition or disability",
-                  placeholder: "e.g Diabetes",
+                  placeholder: "eg. Diabetes",
                   widthPercent: null,
                   value: ""
                 },
                 {
                   title: "Approximate start date",
-                  placeholder: "e.g. May 2017",
+                  placeholder: "eg. May 2017",
                   widthPercent: null,
                   value: ""
                 }
-              ]
+               ]
             }
           ]
         },
@@ -1113,7 +1090,9 @@ h1 {
     }
 
     .question .table {
-      table-layout: fixed;
+      table {
+        width: 100%;
+      }
 
       .table-add-button {
         float: right;
