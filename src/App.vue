@@ -104,8 +104,6 @@ export default {
                   value: ""
                 }
               ]
-<<<<<<< HEAD
-=======
             },
             {
               id: "6",
@@ -126,7 +124,6 @@ export default {
                   }
                 ]
               }
->>>>>>> fixed ids
             }
           ]
         },
@@ -138,10 +135,6 @@ export default {
             "Use page 7 of the Information Booklet to help you answer these questions.",
           guidance: "",
           questions: [
-<<<<<<< HEAD
-              {
-              id: "2",
-=======
             {
               id: "7",
               title: "Radio Group question",
@@ -164,10 +157,6 @@ export default {
             },
             {
               id: "8",
-<<<<<<< HEAD
-=======
->>>>>>> fixed ids
->>>>>>> 691c3767067ebc4764e8e8d2ceeddf61de54240e
               title:
                 "Q2a tell us in the space below what your health conditions or disabilities are, and approximately when each of these started.",
               type: "table",
@@ -225,14 +214,6 @@ export default {
           },
           questions: [
             {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-              id:"8",
-              title: "Q3 Preparing food",
-              description:"This includes things like:<ul><li>Food preparation such as peeling, chopping or opening packaging, and</li><li>Safely cooking or heating food on a cooker hob or in a microwave oven </li></ul>Tick the boxes that apply to you then provide more information in the extra information box."
-=======
->>>>>>> 691c3767067ebc4764e8e8d2ceeddf61de54240e
               id: "10",
               title: "Q3 Preparing food ",
               type: "radio-group",
@@ -242,7 +223,6 @@ export default {
                 key: "question-4",
                 items: []
               }
->>>>>>> fixed ids
             },
             {
               id: "11",
@@ -994,7 +974,7 @@ h1 {
       margin-bottom: -15px;
       margin-top: 15px;
 
-      
+
     }
 
     .question.single-line input[type="text"] {
