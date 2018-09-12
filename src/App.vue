@@ -1016,20 +1016,6 @@ h1 {
       color: #797979;
       line-height: 18px;
     }
-<<<<<<< HEAD
-
-    .question h1.title {
-      font-size: 16px;
-      color: #333;
-      font-weight: 600;
-    }
-
-    .question .description {
-      font-size: 12px;
-      font-weight: 400;
-      color: #666666;
-      margin: 20px 0;
-=======
   
     .question {
       span.check {
@@ -1055,7 +1041,6 @@ h1 {
         color: #666666;
         margin: 20px 0;
       }
->>>>>>> 3d664d7884e3ca01736cd6c62e60e5a927f8ce71
     }
     .radio-group {
       margin-top: 20px;
