@@ -1028,7 +1028,7 @@ h1 {
     }
     
     .question .radio-group .option:first-of-type {
-      border-width: px;
+      border-width: 3px;
     }
     .question .radio-group .option {
       border-width: 1px;
