@@ -44,20 +44,20 @@ export default {
               description: ""
             },
             {
-              id: "3",
+              id: "2",
               title: "Address",
               type: "multi-line-textbox",
               placeholder: "Applicants address"
             },
             {
-              id: "4",
+              id: "3",
               title: "N.I. Number",
               type: "single-line-textbox",
               placeholder: "Applicants NI Number e.g AA 11 22 33 B",
               description: ""
             },
             {
-              id: "5",
+              id: "4",
               title: "",
               type: "subsection",
               heading: "About your health professional",
@@ -65,7 +65,7 @@ export default {
                 "If we need additional information we may contact the health professionals that support you."
             },
             {
-              id: "0",
+              id: "5",
               title:
                 "Q1 Tell us about the professional(s) best placed to advise us on how your health condition or disability affects you",
               type: "table",
@@ -104,6 +104,29 @@ export default {
                   value: ""
                 }
               ]
+<<<<<<< HEAD
+=======
+            },
+            {
+              id: "6",
+              title: "Radio Group question",
+              type: "radio-group",
+              guidance: "string",
+              options: {
+                key: "question-4",
+                items: [
+                  {
+                    title: "yes"
+                  },
+                  {
+                    title: "no"
+                  },
+                  {
+                    title: "sometimes"
+                  }
+                ]
+              }
+>>>>>>> fixed ids
             }
           ]
         },
@@ -115,8 +138,33 @@ export default {
             "Use page 7 of the Information Booklet to help you answer these questions.",
           guidance: "",
           questions: [
+<<<<<<< HEAD
               {
               id: "2",
+=======
+            {
+              id: "7",
+              title: "Radio Group question",
+              type: "radio-group",
+              guidance: "string",
+              options: {
+                key: "question-4",
+                items: [
+                  {
+                    title: "yes"
+                  },
+                  {
+                    title: "no"
+                  },
+                  {
+                    title: "sometimes"
+                  }
+                ]
+              }
+            },
+            {
+              id: "8",
+>>>>>>> fixed ids
               title:
                 "Q2a tell us in the space below what your health conditions or disabilities are, and approximately when each of these started.",
               type: "table",
@@ -149,7 +197,7 @@ export default {
             '<div id="u201_text" class="text "><p><span>Be sure to include any contraindications, i.e. medication that you cannot take while taking another type of medication.</span></p></div>',
           questions: [
             {
-              id: "10",
+              id: "9",
               title: "Q2b Tell us about:",
               type: "multi-line-textbox",
               placeholder:
@@ -174,12 +222,24 @@ export default {
           },
           questions: [
             {
+<<<<<<< HEAD
               id:"8",
               title: "Q3 Preparing food",
               description:"This includes things like:<ul><li>Food preparation such as peeling, chopping or opening packaging, and</li><li>Safely cooking or heating food on a cooker hob or in a microwave oven </li></ul>Tick the boxes that apply to you then provide more information in the extra information box."
+=======
+              id: "10",
+              title: "Q3 Preparing food ",
+              type: "radio-group",
+              guidance:
+                '<div id="u234" class="ax_default box_1"> <div id="u234_div" class=""></div> <div id="u234_text" class="text "> <p><span>Never miss out an aid off the list if you think it\'s obvious.</span></p><p><span><br></span></p><p><span>Remember a prosthetic limb and a walking stick are both considered aids.</span></p> </div> </div>',
+              options: {
+                key: "question-4",
+                items: []
+              }
+>>>>>>> fixed ids
             },
             {
-              id: "8",
+              id: "11",
               title:
                 "Q3a Do you need to use an aid or appliance to prepare or cook a simple meal?",
               description: "Aids and appliances include things like: Perching stools, lightweight pots and pans, easy grip handles on utensils, single lever arm taps and liquid level indicators",
@@ -202,7 +262,7 @@ export default {
               }
             },
             {
-              id: "8",
+              id: "12",
               title:
                 "Q3b Do you need help from another person to prepare or cook a simple meal?",
               description:"By this we mean:<ul><li>Do they remind or motivate you to cook?</li><li>Do they plan the task for you?</li><li>Do they supervise you?</li><li>Do they physically help you?</li><li>Do they prepare all your food for you?</li></ul>This includes help you have <b>and</b> help you need but don’t get.",
@@ -238,7 +298,7 @@ export default {
             '<div id="u258" class="ax_default box_1"> <div id="u258_div" class=""></div> <div id="u258_text" class="text "> <p><span>Try asking the applicant did they cook last night? Or When did they last cook a meal?</span></p><p><span><br></span></p><p><span>If they use aid/appliance, explain</span></p><p><span>- How they help and what would happen if they didn\'t use them?</span></p><p><span>- Did a health professional advise them to?</span></p><p><span>- Who supervises them, how often? Include any help they need but don\'t get.</span></p><p><span><br></span></p><p><span>If they heat food,</span></p><p><span>- Do they use a hob or microwave?</span></p><p><span>- Can they heat on a hob or would they use a microwave?</span></p> </div> </div>',
           questions: [
             {
-              id: "3",
+              id: "13",
               title: "",
               type: "multi-line-textbox",
               placeholder: "type information here"
@@ -256,7 +316,7 @@ export default {
           questions: [
 
             {
-              id: '8',
+              id: '14',
               title: 'Q4 Eating and drinking',
               type: 'radio-group',
               description:'',
@@ -268,7 +328,7 @@ export default {
               }
             },
             {
-              id: '8',
+              id: '15',
               title:
                 'Q4a Do you need to use an aid or appliance to eat and drink?',
               type: 'radio-group',
@@ -291,7 +351,7 @@ export default {
               }
             },
             {
-              id: '8',
+              id: '16',
               title:
                 'Q4b Do you use a feeding tube or similar device to eat and drink?',
               type: 'radio-group',
@@ -314,7 +374,7 @@ export default {
               }
             },
             {
-              id: '8',
+              id: '17',
               title:
                 'Q4c Do you need help from another person to eat and drink?',
               type: 'radio-group',
@@ -353,7 +413,7 @@ export default {
           },
           questions: [
             {
-              id: '3',
+              id: '18',
               title: 'Extra information –Eating and drinking',
               type: 'multi-line-textbox',
               placeholder: 'type information here'
@@ -368,7 +428,7 @@ export default {
           guidance:'',
           questions: [
             {
-              id: '8',
+              id: '19',
               title:
                 'Q5 Managing treatments',
               type: 'radio-group',
@@ -380,7 +440,7 @@ export default {
               }
             },
             {
-              id: '8',
+              id: '20',
               title:
                 'Q5a Do you need to use an aid or appliance to monitor your health conditions, take medication or manage home treatments?',
               type: 'radio-group',
@@ -403,7 +463,7 @@ export default {
               }
             },
             {
-              id: '8',
+              id: '21',
               title:
                 'Q5b Do you need help from another person to monitor your health conditions, take medication or manage home treatments?',
               type: 'radio-group',
@@ -439,7 +499,7 @@ export default {
           },
           questions: [
             {
-              id: '3',
+              id: '22',
               title: 'Extra information – Managing treatments',
               description: '',
               type: 'multi-line-textbox',
@@ -455,7 +515,7 @@ export default {
           guidance:'',
           questions: [
             {
-              id: '8',
+              id: '23',
               title:
                 'Q6 Washing and bathing',
               type: 'radio-group',
@@ -467,7 +527,7 @@ export default {
               }
             },
             {
-              id: '8',
+              id: '24',
               title:
                 'Q6a Do you need to use an aid or appliance to wash and bathe yourself, including using a bath or shower?',
               type: 'radio-group',
@@ -490,7 +550,7 @@ export default {
               }
             },
             {
-              id: '8',
+              id: '25',
               title:
                 'Q6b Do you need help from another person to wash and bathe?',
               type: 'radio-group',
@@ -526,7 +586,7 @@ export default {
           },
           questions: [
             {
-              id: '3',
+              id: '26',
               title: 'Extra information – Washing and bathing',
               description: "",
               type: 'multi-line-textbox',
@@ -542,7 +602,7 @@ export default {
           guidance:'',
           questions: [
             {
-              id: '8',
+              id: '27',
               title:
                 'Q7 Managing toilet needs',
               type: 'radio-group',
@@ -554,7 +614,7 @@ export default {
               }
             },
             {
-              id: '8',
+              id: '28',
               title:
                 'Q7a do you need to use an aid or appliance to use the toilet or manage incontinence?',
               type: 'radio-group',
@@ -577,7 +637,7 @@ export default {
               }
             },
             {
-              id: '8',
+              id: '29',
               title:
                 'Q7b do you need help from another person to use the toilet or manage incontinence?',
               type: 'radio-group',
@@ -613,7 +673,7 @@ export default {
           },
           questions: [
             {
-              id: '3',
+              id: '30',
               title: 'Extra information – managing toilet needs',
               type: 'multi-line-textbox',
               description: '',
@@ -629,7 +689,7 @@ export default {
           guidance:'',
           questions: [
             {
-              id: '8',
+              id: '31',
               title:
                 'Q8 Dressing and undressing',
               type: 'radio-group',
@@ -641,7 +701,7 @@ export default {
               }
             },
             {
-              id: '8',
+              id: '32',
               title:
                 'Q8a do you need to use and aid or appliance to dress or undress?',
               type: 'radio-group',
@@ -664,7 +724,7 @@ export default {
               }
             },
             {
-              id: '8',
+              id: '33',
               title:
                 'Q8b Do you need help from another person to dress or undress?',
               type: 'radio-group',
@@ -700,7 +760,7 @@ export default {
           },
           questions: [
             {
-              id: '3',
+              id: '34',
               title: 'Extra information – Dressing and undressing',
               description: '',
               type: 'multi-line-textbox',
@@ -716,7 +776,7 @@ export default {
           guidance:'',
           questions: [
             {
-              id: '8',
+              id: '35',
               title:
                 'Q9 Communicating',
               type: 'radio-group',
@@ -728,7 +788,7 @@ export default {
               }
             },
             {
-              id: '8',
+              id: '36',
               title:
                 'Q9a Do you need to use an aid or appliance to communicate with others?',
               type: 'radio-group',
@@ -751,7 +811,7 @@ export default {
               }
             },
             {
-              id: '8',
+              id: '37',
               title:
                 'Q9b Do you need help from another person to communicate with others?',
               type: 'radio-group',
@@ -787,7 +847,7 @@ export default {
           },
           questions: [
             {
-              id: '3',
+              id: '38',
               title: 'Extra information – Communicating',
               description: '',
               type: 'multi-line-textbox',
@@ -803,7 +863,7 @@ export default {
           guidance:'',
           questions: [
             {
-              id: '8',
+              id: '39',
               title:
                 'Q10 Reading',
               type: 'radio-group',
@@ -815,7 +875,7 @@ export default {
               }
             },
             {
-              id: '8',
+              id: '40',
               title:
                 'Q10a Do you need to use an aid or appliance other than spectacles or contact lenses to read signs, symbols and words?',
               type: 'radio-group',
@@ -838,7 +898,7 @@ export default {
               }
             },
             {
-              id: '8',
+              id: '41',
               title:
                 'Q10b Do you need help from another person to read or understand signs, symbols and words?',
               type: 'radio-group',
@@ -874,7 +934,7 @@ export default {
           },
           questions: [
             {
-              id: '3',
+              id: '42',
               title: 'Extra information – Reading',
               description: '',
               type: 'multi-line-textbox',
@@ -991,7 +1051,7 @@ h1 {
       color: #797979;
       line-height: 18px;
     }
-  
+
     .question {
       span.check {
         float: left;
@@ -1009,7 +1069,7 @@ h1 {
         color: #333;
         font-weight: 600;
       }
-    
+
       .description {
         font-size: 12px;
         font-weight: 400;
