@@ -104,6 +104,8 @@ export default {
                   value: ""
                 }
               ]
+<<<<<<< HEAD
+=======
             },
             {
               id: "6",
@@ -124,6 +126,7 @@ export default {
                   }
                 ]
               }
+>>>>>>> fixed ids
             }
           ]
         },
@@ -135,6 +138,10 @@ export default {
             "Use page 7 of the Information Booklet to help you answer these questions.",
           guidance: "",
           questions: [
+<<<<<<< HEAD
+              {
+              id: "2",
+=======
             {
               id: "7",
               title: "Radio Group question",
@@ -157,12 +164,30 @@ export default {
             },
             {
               id: "8",
+<<<<<<< HEAD
+=======
+>>>>>>> fixed ids
+>>>>>>> 691c3767067ebc4764e8e8d2ceeddf61de54240e
               title:
-                "Q1 Tell us about the professional(s) best placed to advise us on how your health condition or disability affects you",
+                "Q2a tell us in the space below what your health conditions or disabilities are, and approximately when each of these started.",
               type: "table",
-              placeholder: "",
               description:
-                "For example, a GP, hospital doctor, specialist nurse, community psychiatric nurse, occupational therapist, physiotherapist, social worker, counsellor, or support worker."
+                "We will ask you how your health conditions or disabilities affect how you carry out day-to-day activities in the rest of the form.",
+
+              columns: [
+                {
+                  title: "Health condition or disability",
+                  placeholder: "e.g Diabetes",
+                  widthPercent: null,
+                  value: ""
+                },
+                {
+                  title: "Approximate start date",
+                  placeholder: "e.g. May 2017",
+                  widthPercent: null,
+                  value: ""
+                }
+              ]
             }
           ]
         },
@@ -200,6 +225,14 @@ export default {
           },
           questions: [
             {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+              id:"8",
+              title: "Q3 Preparing food",
+              description:"This includes things like:<ul><li>Food preparation such as peeling, chopping or opening packaging, and</li><li>Safely cooking or heating food on a cooker hob or in a microwave oven </li></ul>Tick the boxes that apply to you then provide more information in the extra information box."
+=======
+>>>>>>> 691c3767067ebc4764e8e8d2ceeddf61de54240e
               id: "10",
               title: "Q3 Preparing food ",
               type: "radio-group",
@@ -209,11 +242,13 @@ export default {
                 key: "question-4",
                 items: []
               }
+>>>>>>> fixed ids
             },
             {
               id: "11",
               title:
                 "Q3a Do you need to use an aid or appliance to prepare or cook a simple meal?",
+              description: "Aids and appliances include things like: Perching stools, lightweight pots and pans, easy grip handles on utensils, single lever arm taps and liquid level indicators",
               type: "radio-group",
               guidance:
                 "Aids and appliances include things like: Perching stools, lightweight pots and pans, easy grip handles on utensils, single lever arm taps and liquid level indicators",
@@ -236,6 +271,7 @@ export default {
               id: "12",
               title:
                 "Q3b Do you need help from another person to prepare or cook a simple meal?",
+              description:"By this we mean:<ul><li>Do they remind or motivate you to cook?</li><li>Do they plan the task for you?</li><li>Do they supervise you?</li><li>Do they physically help you?</li><li>Do they prepare all your food for you?</li></ul>This includes help you have <b>and</b> help you need but don’t get.",
               type: "radio-group",
               guidance:
                 '<div id="u232" class="ax_default heading_2"> <div id="u232_div" class=""></div> <div id="u232_text" class="text "> <p><span style="font-family:\'Open Sans\';font-weight:400;">By this we mean: </span></p> <p><span style="font-family:\'Open Sans\';font-weight:400;">•&nbsp; &nbsp;&nbsp; Do they remind or motivate you to cook?</span></p> <p><span style="font-family:\'Open Sans\';font-weight:400;">•&nbsp; &nbsp;&nbsp; Do they plan the task for you?</span></p> <p><span style="font-family:\'Open Sans\';font-weight:400;">•&nbsp; &nbsp;&nbsp; Do they supervise you? </span></p> <p><span style="font-family:\'Open Sans\';font-weight:400;">•&nbsp; &nbsp;&nbsp; Do they physically help you?</span></p> <p><span style="font-family:\'Open Sans\';font-weight:400;">•&nbsp; &nbsp;&nbsp; Do they prepare all your food for you?</span></p> <p><span style="font-family:\'Open Sans\';font-weight:400;">This includes help you have </span><span style="font-family:\'Open Sans Bold\', \'Open Sans Regular\', \'Open Sans\';font-weight:700;">and</span><span style="font-family:\'Open Sans\';font-weight:400;"> help you need but don’t get.</span></p> </div></div>',
@@ -955,6 +991,10 @@ h1 {
       color: #333;
       font-weight: 400;
       line-height: 22px;
+      margin-bottom: -15px;
+      margin-top: 15px;
+
+      
     }
 
     .question.single-line input[type="text"] {
@@ -1005,6 +1045,7 @@ h1 {
       font-size: 20px;
       color: #666666;
       font-weight: 200;
+      margin-top: 60px;
     }
 
     #section {
@@ -1109,8 +1150,16 @@ h1 {
 
     table {
       margin-bottom: 10px;
+      width: 100%;
       td {
         border: 1px solid #eee;
+        padding: 5px;
+      }
+      th{
+        text-align: left;
+        font-size: 13px;
+        font-weight: 600;
+        padding-bottom: 10px;
       }
       textarea {
         width: 100%;
