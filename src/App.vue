@@ -1097,10 +1097,17 @@ h1 {
       .table-add-button {
         float: right;
         margin-right: 5px;
-        background-color: #0067b1;
-        border-radius: 6px;
         color: #eee;
       }
+    }
+
+    button, input[type=button] {
+        background-color: #0067b1 !important;
+        border: none;
+        padding: 5px;
+        border-radius: 6px;
+        margin-right: 1px;
+        color: white;
     }
 
     td {
