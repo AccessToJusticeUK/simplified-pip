@@ -938,6 +938,9 @@ body {
     border-bottom-color: #e4e4e4;
   }
 
+textarea {
+  font-size: 14px;
+}
   .question.multi-line textarea {
     width: 100%;
     padding: 5px;
@@ -955,9 +958,10 @@ body {
     border-bottom-color: #e4e4e4;
   }
 
-  ::placeholder {
+  ::placeholder, textarea::placeholder{
     color: #999;
     font-style: italic;
+    font-family: Arial;
   }
 
   .subsection h2 {
@@ -1026,11 +1030,15 @@ body {
   }
 
   .question table {
-    width: 100%;
+    width: 114%;
+    table-layout: fixed;
 
-    textarea {
-      width: 100%;
+    textarea textarea{
+    width: 100%;   
     }
   }
+
+
+
 }
 </style>
