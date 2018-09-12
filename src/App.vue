@@ -1032,16 +1032,25 @@ textarea, input[type="text"] {
   }
 
   .question table {
-    width: 114%;
+    width: 100%;
     table-layout: fixed;
 
-    textarea textarea{
-    width: 100%;   
+    textarea {
+      width: 100%;   
     }
   }
   
   td {
     vertical-align: top;
+  }
+
+  table {
+    td {
+      border: 1px solid #eee;
+    }
+    textarea {
+      width: 100%;
+    }
   }
 
   textarea {
