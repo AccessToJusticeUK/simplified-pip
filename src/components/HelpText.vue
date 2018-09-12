@@ -6,7 +6,7 @@
     cssClass: String
   }
 -->
-<div v-if="model.fileName" :class="'help-text ' + model.cssClass">
+<div v-if="model != undefined && model.fileName" :class="'help-text ' + model.cssClass">
   <div :id="'help-text-' + this.id"></div>
 </div>
 <div v-else>
@@ -20,7 +20,7 @@ import Questions from './Questions.vue'
 export default {
   name: 'Section',
   props: {
-    model: Object
+    model: String | Object
   },
   components: {
 
@@ -33,8 +33,13 @@ export default {
   mounted: function () {
     this.id = this.generateId()
 
+<<<<<<< HEAD
     if (this.model.fileName && this.model.preLoad) {
       this.loadHelpText('#help-text-' + this.id, this.model.fileName)
+=======
+    if(this.model && this.model.fileName && this.model.preLoad) {
+      this.loadHelpText('#help-text-' + this.id, this.model.fileName);
+>>>>>>> Fixed table css and button radius
     }
   },
   methods: {

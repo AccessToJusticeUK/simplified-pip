@@ -461,6 +461,7 @@ export default {
             {
               id: '3',
               title: 'Extra information – Managing treatments',
+              description: '',
               type: 'multi-line-textbox',
               placeholder: 'type information here'
             }
@@ -543,6 +544,7 @@ export default {
             {
               id: '3',
               title: 'Extra information – Washing and bathing',
+              description: "",
               type: 'multi-line-textbox',
               placeholder: 'type information here'
             }
@@ -626,6 +628,7 @@ export default {
               id: '3',
               title: 'Extra information – managing toilet needs',
               type: 'multi-line-textbox',
+              description: '',
               placeholder: 'type information here'
             }
           ]
@@ -707,6 +710,7 @@ export default {
             {
               id: '3',
               title: 'Extra information – Dressing and undressing',
+              description: '',
               type: 'multi-line-textbox',
               placeholder: 'type information here'
             }
@@ -789,6 +793,7 @@ export default {
             {
               id: '3',
               title: 'Extra information – Communicating',
+              description: '',
               type: 'multi-line-textbox',
               placeholder: 'type information here'
             }
@@ -871,6 +876,7 @@ export default {
             {
               id: '3',
               title: 'Extra information – Reading',
+              description: '',
               type: 'multi-line-textbox',
               placeholder: 'type information here'
             }
@@ -887,6 +893,7 @@ export default {
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700");
 
 h1 {
+<<<<<<< HEAD
   margin-top: 0;
   margin-bottom: 0;
   font-weight: normal;
@@ -1016,21 +1023,132 @@ textarea, input[type="text"] {
   }
   .question .radio-group .option {
     border-width: 1px;
+=======
+    margin-top: 0;
+    margin-bottom: 0;
+>>>>>>> Fixed table css and button radius
   }
-
-  .guidance-page {
-    float: left;
-    width: 300px;
-    margin-top: 40px;
-    margin-left: 25px;
+  
+  body {
+    background-color: rgba(242, 242, 242, 1);
+    margin-top: 0;
   }
-
-  #content {
-    margin-top: 95px;
+  
+  #app {
+    font-family: "Open Sans Light", "Open Sans Regular", "Open Sans", sans-serif;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #2c3e50;
     display: flex;
-    flex-direction: column;
+    justify-content: flex-start;
+  
+    .guidance-page {
+      font-size: 14px;
+      font-weight: 300;
+      color: #333;
+    }
+  
+    .question {
+      margin-bottom: 20px;
+    }
+    .question h1.title {
+      font-size: 16px;
+      color: #333;
+      font-weight: 400;
+      line-height: 22px;
+    }
+  
+    .question.single-line input[type="text"] {
+      width: 100%;
+      padding: 5px;
+      font-size: 14px;
+      color: #333;
+      font-weight: 400;
+      border-style: solid;
+      border-left-width: 3px;
+      border-left-color: #ff6600;
+      border-top-width: 1px;
+      border-top-color: #e4e4e4;
+      border-right-width: 1px;
+      border-right-color: #e4e4e4;
+      border-bottom-width: 1px;
+      border-bottom-color: #e4e4e4;
+    }
+  
+  textarea, input[type="text"] {
+    font-size: 14px;
+    font-family: inherit;
   }
+    .question.multi-line textarea{
+      width: 100%;
+      padding: 5px;
+      font-size: 14px;
+      color: #333;
+      font-weight: 400;
+      border-style: solid;
+      border-left-width: 3px;
+      border-left-color: #ff6600;
+      border-top-width: 1px;
+      border-top-color: #e4e4e4;
+      border-right-width: 1px;
+      border-right-color: #e4e4e4;
+      border-bottom-width: 1px;
+      border-bottom-color: #e4e4e4;
+    }
+  
+    ::placeholder, textarea::placeholder{
+      color: #999;
+      font-style: italic;
+      font-family: Arial;
+    }
+  
+    .subsection h2 {
+      font-size: 20px;
+      color: #666666;
+      font-weight: 200;
+    }
+  
+    #section {
+      float: left;
+    }
+  
+    .subsection div {
+      font-size: 12px;
+      color: #797979;
+      line-height: 18px;
+    }
+  
+    .question h1.title {
+      font-size: 16px;
+      color: #333;
+      font-weight: 600;
+    }
+  
+    .question .description {
+      font-size: 12px;
+      font-weight: 400;
+      color: #666666;
+      margin: 20px 0;
+    }
+    .radio-group {
+      margin-top: 20px;
+      margin-bottom: 40px;
+    }
+    .question .radio-group .option {
+      font-size: 18px;
+      font-weight: 400;
+      padding: 10px;
+      padding-right: 20px;
+      border-top-style: none;
+      border-left-style: solid;
+      border-bottom-style: none;
+      border-right-style: none;
+      border-left-color: #ff6600;
+  
+    }
 
+<<<<<<< HEAD
   .question table {
     width: 100%;
     table-layout: fixed;
@@ -1043,18 +1161,70 @@ textarea, input[type="text"] {
   td {
     vertical-align: top;
   }
+=======
+    .option, .table tbody tr {
+      td:first-of-type {
+        border-top-style: none;
+        border-left-width: 3px;
+        border-left-style: solid;
+        border-left-color: #ff6600;
+      }
+      td:last-of-type {
+        display: inline-block;
+      }
+    }
+    
+    .question .radio-group .option:first-of-type {
+      border-width: 3px;
+    }
+    .question .radio-group .option {
+      border-width: 1px;
+    }
+  
+    .guidance-page {
+      float: left;
+      width: 300px;
+      margin-top: 40px;
+      margin-left: 25px;
+    }
+  
+    #content {
+      margin-top: 95px;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .question .table {
+      table-layout: fixed;
+>>>>>>> Fixed table css and button radius
 
-  table {
+      .table-add-button {
+        float: right;
+        margin-right: 5px;
+        background-color: #0067b1;
+        border-radius: 6px;
+        color: #eee;
+      }
+    }
+    
     td {
-      border: 1px solid #eee;
+      vertical-align: top;
     }
+  
+    table {
+      margin-bottom: 10px;
+      td {
+        border: 1px solid #eee;
+      }
+      textarea {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+      }
+    }
+  
     textarea {
-      width: 100%;
+        border: none;
     }
   }
-
-  textarea {
-      border: none;
-  }
-}
 </style>

@@ -23,7 +23,7 @@
             </tbody>
         </table>
 
-        <button @click="addRow()" class="table-add-button">➕</button>
+        <button @click="addRow()" class="table-add-button">➕ Add a row</button>
     </div>
 </template>
 
