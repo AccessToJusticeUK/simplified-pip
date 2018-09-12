@@ -1,3 +1,38 @@
-.guidance-page {
+.guidance-page, .sidenav, span.check, button, input[type="submit"] {
     display: none;
+}
+
+* {
+    float: none !important;
+    clear: both !important;
+}
+
+html, body, section {
+    padding: 0;
+    margin: 0;
+}
+
+.section {
+    box-shadow: none !important;
+}
+
+section, .section {
+    height: auto !important;
+}
+
+.page-break	{ 
+    display: block; 
+    clear: both;
+    page-break-before: always; 
+}
+
+.page {
+    /* border: 1px solid red; */
+    vertical-align: top;
+    box-sizing: border-box;
+    page-break-after: always;
+}
+
+body {
+    background-color: white;
 }

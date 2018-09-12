@@ -5,6 +5,7 @@
 
       <div v-for="page in pages" v-bind:key="page.pageNum">
         <Page :pageNumber="page.pageNum" :model="page" />
+        <div class="page-break"></div>
       </div>
 
     </div>
@@ -1553,6 +1554,7 @@ h1 {
 
     textarea {
         border: none;
+        resize: none;
     }
 
     .guidance-page td b {

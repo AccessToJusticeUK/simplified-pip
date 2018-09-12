@@ -1,25 +1,25 @@
 <template>
-<div>
+<div class="page">
     <div class="section">
-        <section>
-            <header>
-                <h1 v-if="model.title">{{model.title}}</h1>
-                <small v-if="model.description">
-                  <HelpText :model="model.description" />
-                </small>
-            </header>
-            <div class="form">
-                <Questions :items="model.questions" />
-            </div>
-            <footer>
-                {{ pageNumber }}
-            </footer>
-        </section>
+      <section>
+        <header>
+            <h1 v-if="model.title">{{model.title}}</h1>
+            <small v-if="model.description">
+              <HelpText :model="model.description" />
+            </small>
+        </header>
+        <div class="form">
+            <Questions :items="model.questions" />
+        </div>
+        <footer>
+            {{ pageNumber }}
+        </footer>
+      </section>
     </div>
-      <div class="guidance-page" v-if="model.guidance">
-        <HelpText :model="model.guidance" />
-      </div>
+    <div class="guidance-page" v-if="model.guidance">
+      <HelpText :model="model.guidance" />
     </div>
+</div>
 </template>
 
 <script>
