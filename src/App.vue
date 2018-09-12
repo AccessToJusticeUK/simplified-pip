@@ -104,26 +104,6 @@ export default {
                   value: ""
                 }
               ]
-            },
-            {
-              id: "6",
-              title: "Radio Group question",
-              type: "radio-group",
-              guidance: "string",
-              options: {
-                key: "question-4",
-                items: [
-                  {
-                    title: "yes"
-                  },
-                  {
-                    title: "no"
-                  },
-                  {
-                    title: "sometimes"
-                  }
-                ]
-              }
             }
           ]
         },
