@@ -1037,8 +1037,13 @@ textarea {
     width: 100%;   
     }
   }
+  
+  td {
+    vertical-align: top;
+  }
 
-
-
+  textarea {
+      border: none;
+  }
 }
 </style>

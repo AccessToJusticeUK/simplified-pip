@@ -1,7 +1,7 @@
 <template>
 
     <div class="questions">
-        <div class="question" v-for="question in items">
+        <div class="question" v-for="question in items" >
 
             <h1 class="title">{{question.title}}</h1>
 
