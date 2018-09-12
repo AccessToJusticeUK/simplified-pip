@@ -140,7 +140,7 @@ export default {
         /* Page 3 */
         {
           pageNum: 3,
-          title: "Section 2 – About your health condition or disability",
+          title: "",
           description: "",
           guidance:
             '<div id="u201_text" class="text "><p><span>Be sure to include any contraindications, i.e. medication that you cannot take while taking another type of medication.</span></p></div>',
@@ -234,7 +234,7 @@ export default {
         {
           pageNum: 5,
           title:
-            "Section 3 – How your health condition or disability affects your day-to-day life ",
+            " ",
           description:
             "<div id=\"u253\" class=\"ax_default heading_2\"> <div id=\"u253_div\" class=\"\"></div> <div id=\"u253_text\" class=\"text \"> <p><span style=\"font-family:'Open Sans Bold', 'Open Sans Regular', 'Open Sans';font-weight:700;\">Extra information – Preparing food</span></p> <p><span style=\"font-family:'Open Sans';font-weight:400;\">Tell us more about any difficulties you have when </span><span style=\"font-family:'Open Sans Bold', 'Open Sans Regular', 'Open Sans';font-weight:700;\">preparing and cooking food</span><span style=\"font-family:'Open Sans';font-weight:400;\">:</span></p> <p><span style=\"font-family:'Open Sans';font-weight:400;\">•&nbsp; &nbsp;&nbsp; Tell us how your condition affects you doing this activity </span></p> <p><span style=\"font-family:'Open Sans';font-weight:400;\">•&nbsp; &nbsp;&nbsp; Tell us how you manage at the moment and the problems you have when you can’t do </span></p> <p><span style=\"font-family:'Open Sans';font-weight:400;\">&nbsp;&nbsp; &nbsp; &nbsp; this activity </span></p> <p><span style=\"font-family:'Open Sans';font-weight:400;\">•&nbsp; &nbsp;&nbsp; Tell us how long it takes you to prepare and cook food </span></p> <p><span style=\"font-family:'Open Sans';font-weight:400;\">•&nbsp; &nbsp;&nbsp; Does whether you can do this vary throughout the day? Tell us about good and bad</span></p> <p><span style=\"font-family:'Open Sans';font-weight:400;\">&nbsp;&nbsp; &nbsp; &nbsp; days </span></p> <p><span style=\"font-family:'Open Sans';font-weight:400;\">•&nbsp; &nbsp;&nbsp; Can you cook using an oven safely? If not, tell us why not</span></p> <p><span style=\"font-family:'Open Sans';font-weight:400;\">•&nbsp; &nbsp;&nbsp; Tell us about the aids or appliances you </span><span style=\"font-family:'Open Sans Bold', 'Open Sans Regular', 'Open Sans';font-weight:700;\">need</span><span style=\"font-family:'Open Sans';font-weight:400;\"> to use to help you prepare and cook </span></p> <p><span style=\"font-family:'Open Sans';font-weight:400;\">&nbsp;&nbsp; &nbsp; &nbsp; food </span></p> <p><span style=\"font-family:'Open Sans';font-weight:400;\">•&nbsp; &nbsp;&nbsp; Do you experience any other difficulties, </span><span style=\"font-family:'Open Sans Bold', 'Open Sans Regular', 'Open Sans';font-weight:700;\">either during or after the activity</span><span style=\"font-family:'Open Sans';font-weight:400;\">, like pain,</span></p> <p><span style=\"font-family:'Open Sans';font-weight:400;\">&nbsp;&nbsp; &nbsp; &nbsp; breathlessness or tiredness? </span></p> <p><span style=\"font-family:'Open Sans';font-weight:400;\">•&nbsp; &nbsp;&nbsp; Tell us about </span><span style=\"font-family:'Open Sans Bold', 'Open Sans Regular', 'Open Sans';font-weight:700;\">help you get from another person</span><span style=\"font-family:'Open Sans';font-weight:400;\"> when preparing food. This includes</span></p> <p><span style=\"font-family:'Open Sans';font-weight:400;\">&nbsp;&nbsp; &nbsp; &nbsp; help you have </span><span style=\"font-family:'Open Sans Bold', 'Open Sans Regular', 'Open Sans';font-weight:700;\">and</span><span style=\"font-family:'Open Sans';font-weight:400;\"> help you need but don’t get</span></p> </div></div>",
           guidance:
@@ -253,7 +253,7 @@ export default {
         {
           pageNum: 6,
           title:
-            'Section 3 – How your health condition or disability affects your day-to-day life',
+            '',
           description: '',
           guidance: '',
           questions: [
@@ -347,7 +347,7 @@ export default {
         {
           pageNum: 7,
           title:
-            'Section 3 – How your health condition or disability affects your day-to-day life ',
+            ' ',
           description: '',
           guidance: {
             fileName: 'pageGuidance/Guide-Page-07.html',
@@ -366,7 +366,7 @@ export default {
         {
           pageNum: 8,
           title:
-            'Section 3 – How your health condition or disability affects your day-to-day life ',
+            ' ',
           description: "",
           guidance:'',
           questions: [
@@ -433,7 +433,7 @@ export default {
         {
           pageNum: 9,
           title:
-            'Section 3 – How your health condition or disability affects your day-to-day life ',
+            ' ',
           description: '',
           guidance: {
             fileName: 'pageGuidance/Guide-Page-09.html',
@@ -453,7 +453,7 @@ export default {
         {
           pageNum: 10,
           title:
-            'Section 3 – How your health condition or disability affects your day-to-day life ',
+            ' ',
           description: "",
           guidance:'',
           questions: [
@@ -520,7 +520,7 @@ export default {
         {
           pageNum: 11,
           title:
-            'Section 3 – How your health condition or disability affects your day-to-day life ',
+            ' ',
           description: '',
           guidance: {
             fileName: 'pageGuidance/Guide-Page-11.html',
@@ -540,7 +540,7 @@ export default {
         {
           pageNum: 12,
           title:
-            'Section 3 – How your health condition or disability affects your day-to-day life ',
+            ' ',
           description: "",
           guidance:'',
           questions: [
@@ -607,7 +607,7 @@ export default {
         {
           pageNum: 13,
           title:
-            'Section 3 – How your health condition or disability affects your day-to-day life ',
+            ' ',
           description: '',
           guidance: {
             fileName: 'pageGuidance/Guide-Page-13.html',
@@ -627,7 +627,7 @@ export default {
         {
           pageNum: 14,
           title:
-            'Section 3 – How your health condition or disability affects your day-to-day life ',
+            ' ',
           description: "",
           guidance:'',
           questions: [
@@ -694,7 +694,7 @@ export default {
         {
           pageNum: 15,
           title:
-            'Section 3 – How your health condition or disability affects your day-to-day life ',
+            ' ',
           description: '',
           guidance: {
             fileName: 'pageGuidance/Guide-Page-15.html',
@@ -714,7 +714,7 @@ export default {
         {
           pageNum: 16,
           title:
-            'Section 3 – How your health condition or disability affects your day-to-day life ',
+            ' ',
           description: "",
           guidance:'',
           questions: [
@@ -781,7 +781,7 @@ export default {
         {
           pageNum: 17,
           title:
-            'Section 3 – How your health condition or disability affects your day-to-day life ',
+            ' ',
           description: '',
           guidance: {
             fileName: 'pageGuidance/Guide-Page-17.html',
@@ -801,7 +801,7 @@ export default {
         {
           pageNum: 18,
           title:
-            'Section 3 – How your health condition or disability affects your day-to-day life ',
+            ' ',
           description: "",
           guidance:'',
           questions: [
@@ -868,7 +868,7 @@ export default {
         {
           pageNum: 19,
           title:
-            'Section 3 – How your health condition or disability affects your day-to-day life ',
+            ' ',
           description: '',
           guidance: {
             fileName: 'pageGuidance/Guide-Page-19.html',
