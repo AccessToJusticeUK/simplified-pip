@@ -16,14 +16,14 @@
                             :placeholder="col.placeholder"></textarea>
                     </td>
                     <td class="action-button">
-                        <button @click="removeRow(index)" v-if="rows.length > 1" class="table-delete-button">➖</button>
+                        <button @click="removeRow(index)" v-if="rows.length > 1" class="table-delete-button">&mdash;</button>
                     </td>
                 </tr>
 
             </tbody>
         </table>
 
-        <button @click="addRow()" class="table-add-button">➕ Add a row</button>
+        <button @click="addRow()" class="table-add-button">+ Add a row</button>
     </div>
 </template>
 

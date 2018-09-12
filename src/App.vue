@@ -1050,12 +1050,14 @@ h1 {
     .question .table {
       table-layout: fixed;
 
-      .table-add-button {
+      .table-add-button, .table-delete-button {
         float: right;
         margin-right: 5px;
         background-color: #0067b1;
         border-radius: 6px;
         color: #eee;
+        border: none;
+        padding: 5px 3px;
       }
     }
     
