@@ -940,6 +940,10 @@ h1 {
       color: #333;
     }
 
+    .help-text h1{
+      font-size: 20px;
+      font-weight: 300;
+    }
     .question {
       margin-bottom: 20px;
     }
