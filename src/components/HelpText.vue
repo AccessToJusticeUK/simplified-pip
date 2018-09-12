@@ -23,7 +23,7 @@ export default {
     model: Object
   },
   components: {
-    
+
   },
   data: function () {
     return {
@@ -31,22 +31,22 @@ export default {
     }
   },
   mounted: function () {
-    this.id = this.generateId();
+    this.id = this.generateId()
 
-    if(this.model.fileName && this.model.preLoad) {
-      this.loadHelpText('#help-text-' + this.id, this.model.fileName);
+    if (this.model.fileName && this.model.preLoad) {
+      this.loadHelpText('#help-text-' + this.id, this.model.fileName)
     }
   },
   methods: {
-    generateId: function guid() {
+    generateId: function guid () {
       return Math.floor((1 + Math.random()) * 0x10000)
-            .toString(16)
-            .substring(1);
+        .toString(16)
+        .substring(1)
     },
 
     loadHelpText: function (target, fileName) {
-      $.get(fileName, function(data) {
-        $(target).html(data);
+      $.get(fileName, function (data) {
+        $(target).html(data)
       })
     }
   }

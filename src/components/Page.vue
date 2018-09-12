@@ -4,7 +4,9 @@
         <section>
             <header>
                 <h1 v-if="model.title">{{model.title}}</h1>
-                <small v-if="model.description">{{ model.description }}</small>
+                <small v-if="model.description">
+                  <HelpText :model="model.description" />
+                </small>
             </header>
             <div class="form">
                 <Questions :items="model.questions" />

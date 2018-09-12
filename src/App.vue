@@ -21,106 +21,106 @@ export default {
     SideNav,
     Page
   },
-  data: function() {
+  data: function () {
     return {
       pages: [
         /* Page 1 */
         {
           pageNum: 1,
-          title: "Section 1",
-          description: "",
+          title: 'Section 1',
+          description: '',
           guidance: {
-            fileName: "pageGuidance/Guide-Page-01.html",
+            fileName: 'pageGuidance/Guide-Page-01.html',
             preLoad: true,
-            cssClass: "guidance-page"
+            cssClass: 'guidance-page'
           },
 
           questions: [
             {
-              id: "1",
-              title: "Name",
-              type: "single-line-textbox",
-              placeholder: "Enter your name here",
-              description: ""
+              id: '1',
+              title: 'Name',
+              type: 'single-line-textbox',
+              placeholder: 'Enter your name here',
+              description: ''
             },
             {
-              id: "3",
-              title: "Address",
-              type: "multi-line-textbox",
-              placeholder: "Applicants address"
+              id: '3',
+              title: 'Address',
+              type: 'multi-line-textbox',
+              placeholder: 'Applicants address'
             },
             {
-              id: "4",
-              title: "N.I. Number",
-              type: "single-line-textbox",
-              placeholder: "Applicants NI Number e.g AA 11 22 33 B",
-              description: ""
+              id: '4',
+              title: 'N.I. Number',
+              type: 'single-line-textbox',
+              placeholder: 'Applicants NI Number e.g AA 11 22 33 B',
+              description: ''
             },
             {
-              id: "5",
-              title: "",
-              type: "subsection",
-              heading: "About your health professional",
+              id: '5',
+              title: '',
+              type: 'subsection',
+              heading: 'About your health professional',
               sub_heading:
-                "If we need additional information we may contact the health professionals that support you."
+                'If we need additional information we may contact the health professionals that support you.'
             },
             {
-              id: "0",
+              id: '0',
               title:
-                "Q1 Tell us about the professional(s) best placed to advise us on how your health condition or disability affects you",
-              type: "table",
+                'Q1 Tell us about the professional(s) best placed to advise us on how your health condition or disability affects you',
+              type: 'table',
               description:
-                "For example, a GP, hospital doctor, specialist nurse, community psychiatric nurse, occupational therapist, physiotherapist, social worker, counsellor, or support worker.",
+                'For example, a GP, hospital doctor, specialist nurse, community psychiatric nurse, occupational therapist, physiotherapist, social worker, counsellor, or support worker.',
 
               columns: [
                 {
-                  title: "Name",
-                  placeholder: "Name",
+                  title: 'Name',
+                  placeholder: 'Name',
                   widthPercent: null,
-                  value: ""
+                  value: ''
                 },
                 {
-                  title: "Address",
-                  placeholder: "Address",
+                  title: 'Address',
+                  placeholder: 'Address',
                   widthPercent: null,
-                  value: ""
+                  value: ''
                 },
                 {
-                  title: "Profession",
-                  placeholder: "Profession",
+                  title: 'Profession',
+                  placeholder: 'Profession',
                   widthPercent: null,
-                  value: ""
+                  value: ''
                 },
                 {
-                  title: "Telephone",
-                  placeholder: "Telephone number",
+                  title: 'Telephone',
+                  placeholder: 'Telephone number',
                   widthPercent: null,
-                  value: ""
+                  value: ''
                 },
                 {
-                  title: "When did you last see them? (approximate date)",
-                  placeholder: "Last date seen",
+                  title: 'When did you last see them? (approximate date)',
+                  placeholder: 'Last date seen',
                   widthPercent: null,
-                  value: ""
+                  value: ''
                 }
               ]
             },
             {
-              id: "8",
-              title: "Radio Group question",
-              type: "radio-group",
-              guidance: "string",
+              id: '8',
+              title: 'Radio Group question',
+              type: 'radio-group',
+              guidance: 'string',
               options: {
-                key: "question-4",
+                key: 'question-4',
                 items: [
                   {
-                    title: "yes"
+                    title: 'yes'
                   },
                   {
-                    title: "no"
+                    title: 'no'
                   },
                   {
-                    title: "sometimes"
+                    title: 'sometimes'
                   }
                 ]
               }
@@ -130,58 +130,58 @@ export default {
         /* Page 2 */
         {
           pageNum: 2,
-          title: "Section 2 – About your health condition or disability",
+          title: 'Section 2 – About your health condition or disability',
           description:
-            "Use page 7 of the Information Booklet to help you answer these questions.",
-          guidance: "",
+            'Use page 7 of the Information Booklet to help you answer these questions.',
+          guidance: '',
           questions: [
             {
-              id: "8",
-              title: "Radio Group question",
-              type: "radio-group",
-              guidance: "string",
+              id: '8',
+              title: 'Radio Group question',
+              type: 'radio-group',
+              guidance: 'string',
               options: {
-                key: "question-4",
+                key: 'question-4',
                 items: [
                   {
-                    title: "yes"
+                    title: 'yes'
                   },
                   {
-                    title: "no"
+                    title: 'no'
                   },
                   {
-                    title: "sometimes"
+                    title: 'sometimes'
                   }
                 ]
               }
             },
             {
-              id: "9",
+              id: '9',
               title:
-                "Q1 Tell us about the professional(s) best placed to advise us on how your health condition or disability affects you",
-              type: "table",
-              placeholder: "",
+                'Q1 Tell us about the professional(s) best placed to advise us on how your health condition or disability affects you',
+              type: 'table',
+              placeholder: '',
               description:
-                "For example, a GP, hospital doctor, specialist nurse, community psychiatric nurse, occupational therapist, physiotherapist, social worker, counsellor, or support worker."
+                'For example, a GP, hospital doctor, specialist nurse, community psychiatric nurse, occupational therapist, physiotherapist, social worker, counsellor, or support worker.'
             }
           ]
         },
         /* Page 3 */
         {
           pageNum: 3,
-          title: "Section 2 – About your health condition or disability",
-          description: "",
+          title: 'Section 2 – About your health condition or disability',
+          description: '',
           guidance:
             '<div id="u201_text" class="text "><p><span>Be sure to include any contraindications, i.e. medication that you cannot take while taking another type of medication.</span></p></div>',
           questions: [
             {
-              id: "10",
-              title: "Q2b Tell us about:",
-              type: "multi-line-textbox",
+              id: '10',
+              title: 'Q2b Tell us about:',
+              type: 'multi-line-textbox',
               placeholder:
-                "e.g. Oramorph 2mg 5 times per day, results, in insomnia and restlessness",
+                'e.g. Oramorph 2mg 5 times per day, results, in insomnia and restlessness',
               description:
-                "<li>Tablets or other medication you’re taking or will be taking and the dosage</li><li>Any treatments you’re having or will be having, such as chemotherapy, physiotherapy or dialysis</li><li>Any side effects these have on you</li>"
+                '<li>Tablets or other medication you’re taking or will be taking and the dosage</li><li>Any treatments you’re having or will be having, such as chemotherapy, physiotherapy or dialysis</li><li>Any side effects these have on you</li>'
             }
           ]
         },
@@ -190,66 +190,66 @@ export default {
         {
           pageNum: 4,
           title:
-            "Section 3 – How your health condition or disability affects your day-to-day life",
+            'Section 3 – How your health condition or disability affects your day-to-day life',
           description:
-            "Tell us in the rest of this form how your health conditions or disabilities affect your day-to-day activities.",
+            'Tell us in the rest of this form how your health conditions or disabilities affect your day-to-day activities.',
           guidance: {
-              fileName: "pageGuidance/Guide-Page-04.html",
-              preLoad: true,
-              cssClass: "guidance-page"
+            fileName: 'pageGuidance/Guide-Page-04.html',
+            preLoad: true,
+            cssClass: 'guidance-page'
           },
           questions: [
             {
-              id: "8",
-              title: "Q3 Preparing food ",
-              type: "radio-group",
+              id: '8',
+              title: 'Q3 Preparing food ',
+              type: 'radio-group',
               guidance:
                 '<div id="u234" class="ax_default box_1"> <div id="u234_div" class=""></div> <div id="u234_text" class="text "> <p><span>Never miss out an aid off the list if you think it\'s obvious.</span></p><p><span><br></span></p><p><span>Remember a prosthetic limb and a walking stick are both considered aids.</span></p> </div> </div>',
               options: {
-                key: "question-4",
+                key: 'question-4',
                 items: []
               }
             },
             {
-              id: "8",
+              id: '8',
               title:
-                "Q3a Do you need to use an aid or appliance to prepare or cook a simple meal?",
-              type: "radio-group",
+                'Q3a Do you need to use an aid or appliance to prepare or cook a simple meal?',
+              type: 'radio-group',
               guidance:
-                "Aids and appliances include things like: Perching stools, lightweight pots and pans, easy grip handles on utensils, single lever arm taps and liquid level indicators",
+                'Aids and appliances include things like: Perching stools, lightweight pots and pans, easy grip handles on utensils, single lever arm taps and liquid level indicators',
               options: {
-                key: "question-3a",
+                key: 'question-3a',
                 items: [
                   {
-                    title: "yes"
+                    title: 'yes'
                   },
                   {
-                    title: "no"
+                    title: 'no'
                   },
                   {
-                    title: "sometimes"
+                    title: 'sometimes'
                   }
                 ]
               }
             },
             {
-              id: "8",
+              id: '8',
               title:
-                "Q3b Do you need help from another person to prepare or cook a simple meal?",
-              type: "radio-group",
+                'Q3b Do you need help from another person to prepare or cook a simple meal?',
+              type: 'radio-group',
               guidance:
                 '<div id="u232" class="ax_default heading_2"> <div id="u232_div" class=""></div> <div id="u232_text" class="text "> <p><span style="font-family:\'Open Sans\';font-weight:400;">By this we mean: </span></p> <p><span style="font-family:\'Open Sans\';font-weight:400;">•&nbsp; &nbsp;&nbsp; Do they remind or motivate you to cook?</span></p> <p><span style="font-family:\'Open Sans\';font-weight:400;">•&nbsp; &nbsp;&nbsp; Do they plan the task for you?</span></p> <p><span style="font-family:\'Open Sans\';font-weight:400;">•&nbsp; &nbsp;&nbsp; Do they supervise you? </span></p> <p><span style="font-family:\'Open Sans\';font-weight:400;">•&nbsp; &nbsp;&nbsp; Do they physically help you?</span></p> <p><span style="font-family:\'Open Sans\';font-weight:400;">•&nbsp; &nbsp;&nbsp; Do they prepare all your food for you?</span></p> <p><span style="font-family:\'Open Sans\';font-weight:400;">This includes help you have </span><span style="font-family:\'Open Sans Bold\', \'Open Sans Regular\', \'Open Sans\';font-weight:700;">and</span><span style="font-family:\'Open Sans\';font-weight:400;"> help you need but don’t get.</span></p> </div></div>',
               options: {
-                key: "question-3b",
+                key: 'question-3b',
                 items: [
                   {
-                    title: "yes"
+                    title: 'yes'
                   },
                   {
-                    title: "no"
+                    title: 'no'
                   },
                   {
-                    title: "sometimes"
+                    title: 'sometimes'
                   }
                 ]
               }
@@ -261,17 +261,17 @@ export default {
         {
           pageNum: 5,
           title:
-            "Section 3 – How your health condition or disability affects your day-to-day life ",
+            'Section 3 – How your health condition or disability affects your day-to-day life ',
           description:
             "<div id=\"u253\" class=\"ax_default heading_2\"> <div id=\"u253_div\" class=\"\"></div> <div id=\"u253_text\" class=\"text \"> <p><span style=\"font-family:'Open Sans Bold', 'Open Sans Regular', 'Open Sans';font-weight:700;\">Extra information – Preparing food</span></p> <p><span style=\"font-family:'Open Sans';font-weight:400;\">Tell us more about any difficulties you have when </span><span style=\"font-family:'Open Sans Bold', 'Open Sans Regular', 'Open Sans';font-weight:700;\">preparing and cooking food</span><span style=\"font-family:'Open Sans';font-weight:400;\">:</span></p> <p><span style=\"font-family:'Open Sans';font-weight:400;\">•&nbsp; &nbsp;&nbsp; Tell us how your condition affects you doing this activity </span></p> <p><span style=\"font-family:'Open Sans';font-weight:400;\">•&nbsp; &nbsp;&nbsp; Tell us how you manage at the moment and the problems you have when you can’t do </span></p> <p><span style=\"font-family:'Open Sans';font-weight:400;\">&nbsp;&nbsp; &nbsp; &nbsp; this activity </span></p> <p><span style=\"font-family:'Open Sans';font-weight:400;\">•&nbsp; &nbsp;&nbsp; Tell us how long it takes you to prepare and cook food </span></p> <p><span style=\"font-family:'Open Sans';font-weight:400;\">•&nbsp; &nbsp;&nbsp; Does whether you can do this vary throughout the day? Tell us about good and bad</span></p> <p><span style=\"font-family:'Open Sans';font-weight:400;\">&nbsp;&nbsp; &nbsp; &nbsp; days </span></p> <p><span style=\"font-family:'Open Sans';font-weight:400;\">•&nbsp; &nbsp;&nbsp; Can you cook using an oven safely? If not, tell us why not</span></p> <p><span style=\"font-family:'Open Sans';font-weight:400;\">•&nbsp; &nbsp;&nbsp; Tell us about the aids or appliances you </span><span style=\"font-family:'Open Sans Bold', 'Open Sans Regular', 'Open Sans';font-weight:700;\">need</span><span style=\"font-family:'Open Sans';font-weight:400;\"> to use to help you prepare and cook </span></p> <p><span style=\"font-family:'Open Sans';font-weight:400;\">&nbsp;&nbsp; &nbsp; &nbsp; food </span></p> <p><span style=\"font-family:'Open Sans';font-weight:400;\">•&nbsp; &nbsp;&nbsp; Do you experience any other difficulties, </span><span style=\"font-family:'Open Sans Bold', 'Open Sans Regular', 'Open Sans';font-weight:700;\">either during or after the activity</span><span style=\"font-family:'Open Sans';font-weight:400;\">, like pain,</span></p> <p><span style=\"font-family:'Open Sans';font-weight:400;\">&nbsp;&nbsp; &nbsp; &nbsp; breathlessness or tiredness? </span></p> <p><span style=\"font-family:'Open Sans';font-weight:400;\">•&nbsp; &nbsp;&nbsp; Tell us about </span><span style=\"font-family:'Open Sans Bold', 'Open Sans Regular', 'Open Sans';font-weight:700;\">help you get from another person</span><span style=\"font-family:'Open Sans';font-weight:400;\"> when preparing food. This includes</span></p> <p><span style=\"font-family:'Open Sans';font-weight:400;\">&nbsp;&nbsp; &nbsp; &nbsp; help you have </span><span style=\"font-family:'Open Sans Bold', 'Open Sans Regular', 'Open Sans';font-weight:700;\">and</span><span style=\"font-family:'Open Sans';font-weight:400;\"> help you need but don’t get</span></p> </div></div>",
           guidance:
             '<div id="u258" class="ax_default box_1"> <div id="u258_div" class=""></div> <div id="u258_text" class="text "> <p><span>Try asking the applicant did they cook last night? Or When did they last cook a meal?</span></p><p><span><br></span></p><p><span>If they use aid/appliance, explain</span></p><p><span>- How they help and what would happen if they didn\'t use them?</span></p><p><span>- Did a health professional advise them to?</span></p><p><span>- Who supervises them, how often? Include any help they need but don\'t get.</span></p><p><span><br></span></p><p><span>If they heat food,</span></p><p><span>- Do they use a hob or microwave?</span></p><p><span>- Can they heat on a hob or would they use a microwave?</span></p> </div> </div>',
           questions: [
             {
-              id: "3",
-              title: "",
-              type: "multi-line-textbox",
-              placeholder: "type information here"
+              id: '3',
+              title: '',
+              type: 'multi-line-textbox',
+              placeholder: 'type information here'
             }
           ]
         },
@@ -289,7 +289,7 @@ export default {
               id: '8',
               title: 'Q4 Eating and drinking',
               type: 'radio-group',
-              description:'',
+              description: '',
               guidance:
                 '',
               options: {
@@ -365,9 +365,7 @@ export default {
                   }
                 ]
               }
-            },
-
-
+            }
 
           ]
         },
@@ -375,8 +373,8 @@ export default {
           pageNum: 7,
           title:
             'Section 3 – How your health condition or disability affects your day-to-day life ',
-          description: "",
-          guidance:'',
+          description: '',
+          guidance: '',
           questions: [
             {
               id: '3',
@@ -390,8 +388,8 @@ export default {
           pageNum: 8,
           title:
             'Section 3 – How your health condition or disability affects your day-to-day life ',
-          description: "",
-          guidance:'',
+          description: '',
+          guidance: '',
           questions: [
             {
               id: '8',
@@ -457,8 +455,8 @@ export default {
           pageNum: 9,
           title:
             'Section 3 – How your health condition or disability affects your day-to-day life ',
-          description: "",
-          guidance:'',
+          description: '',
+          guidance: '',
           questions: [
             {
               id: '3',
@@ -472,8 +470,8 @@ export default {
           pageNum: 10,
           title:
             'Section 3 – How your health condition or disability affects your day-to-day life ',
-          description: "",
-          guidance:'',
+          description: '',
+          guidance: '',
           questions: [
             {
               id: '8',
@@ -539,8 +537,8 @@ export default {
           pageNum: 11,
           title:
             'Section 3 – How your health condition or disability affects your day-to-day life ',
-          description: "",
-          guidance:'',
+          description: '',
+          guidance: '',
           questions: [
             {
               id: '3',
@@ -554,8 +552,8 @@ export default {
           pageNum: 12,
           title:
             'Section 3 – How your health condition or disability affects your day-to-day life ',
-          description: "",
-          guidance:'',
+          description: '',
+          guidance: '',
           questions: [
             {
               id: '8',
@@ -621,8 +619,8 @@ export default {
           pageNum: 13,
           title:
             'Section 3 – How your health condition or disability affects your day-to-day life ',
-          description: "",
-          guidance:'',
+          description: '',
+          guidance: '',
           questions: [
             {
               id: '3',
@@ -636,8 +634,8 @@ export default {
           pageNum: 14,
           title:
             'Section 3 – How your health condition or disability affects your day-to-day life ',
-          description: "",
-          guidance:'',
+          description: '',
+          guidance: '',
           questions: [
             {
               id: '8',
@@ -703,8 +701,8 @@ export default {
           pageNum: 15,
           title:
             'Section 3 – How your health condition or disability affects your day-to-day life ',
-          description: "",
-          guidance:'',
+          description: '',
+          guidance: '',
           questions: [
             {
               id: '3',
@@ -718,8 +716,8 @@ export default {
           pageNum: 16,
           title:
             'Section 3 – How your health condition or disability affects your day-to-day life ',
-          description: "",
-          guidance:'',
+          description: '',
+          guidance: '',
           questions: [
             {
               id: '8',
@@ -785,8 +783,8 @@ export default {
           pageNum: 17,
           title:
             'Section 3 – How your health condition or disability affects your day-to-day life ',
-          description: "",
-          guidance:'',
+          description: '',
+          guidance: '',
           questions: [
             {
               id: '3',
@@ -800,8 +798,8 @@ export default {
           pageNum: 18,
           title:
             'Section 3 – How your health condition or disability affects your day-to-day life ',
-          description: "",
-          guidance:'',
+          description: '',
+          guidance: '',
           questions: [
             {
               id: '8',
@@ -867,8 +865,8 @@ export default {
           pageNum: 19,
           title:
             'Section 3 – How your health condition or disability affects your day-to-day life ',
-          description: "",
-          guidance:'',
+          description: '',
+          guidance: '',
           questions: [
             {
               id: '3',
@@ -877,12 +875,12 @@ export default {
               placeholder: 'type information here'
             }
           ]
-        },
+        }
 
       ]
-    };
+    }
   }
-};
+}
 </script>
 
 <style lang="scss">
@@ -1010,7 +1008,6 @@ textarea, input[type="text"] {
     border-bottom-style: none;
     border-right-style: none;
     border-left-color: #ff6600;
-
 
   }
 

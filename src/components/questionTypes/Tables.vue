@@ -31,23 +31,23 @@
 </style>
 <script>
 export default {
-  name: "Table",
+  name: 'Table',
   props: {
     columns: Array
   },
   methods: {
-    addRow: function() {
-      this.rows.push({});
+    addRow: function () {
+      this.rows.push({})
     },
 
-    removeRow: function(index) {
-      this.rows.splice(index, 1);
+    removeRow: function (index) {
+      this.rows.splice(index, 1)
     }
   },
-  data: function() {
+  data: function () {
     return {
       rows: [{}]
-    };
+    }
   }
-};
+}
 </script>
