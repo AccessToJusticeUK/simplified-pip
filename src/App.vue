@@ -274,11 +274,195 @@ export default {
         {
           pageNum: 6,
           title:
-            "Section 3 – How your health condition or disability affects your day-to-day life",
+            'Section 3 – How your health condition or disability affects your day-to-day life',
+          description: '',
+          guidance: '',
+          questions: [
+
+            {
+              id: '8',
+              title: 'Q4 Eating and drinking',
+              type: 'radio-group',
+              description:'',
+              guidance:
+                '',
+              options: {
+                key: 'question-4',
+                items: []
+              }
+            },
+            {
+              id: '8',
+              title:
+                'Q4a Do you need to use an aid or appliance to eat and drink?',
+              type: 'radio-group',
+              description: '',
+              guidance:
+                '',
+              options: {
+                key: 'question-4a',
+                items: [
+                  {
+                    title: 'yes'
+                  },
+                  {
+                    title: 'no'
+                  },
+                  {
+                    title: 'sometimes'
+                  }
+                ]
+              }
+            },
+            {
+              id: '8',
+              title:
+                'Q4b Do you use a feeding tube or similar device to eat and drink?',
+              type: 'radio-group',
+              description: '',
+              guidance:
+                '',
+              options: {
+                key: 'question-4b',
+                items: [
+                  {
+                    title: 'yes'
+                  },
+                  {
+                    title: 'no'
+                  },
+                  {
+                    title: 'sometimes'
+                  }
+                ]
+              }
+            },
+            {
+              id: '8',
+              title:
+                'Q4c Do you need help from another person to eat and drink?',
+              type: 'radio-group',
+              description: '',
+              guidance:
+                '',
+              options: {
+                key: 'question-4c',
+                items: [
+                  {
+                    title: 'yes'
+                  },
+                  {
+                    title: 'no'
+                  },
+                  {
+                    title: 'sometimes'
+                  }
+                ]
+              }
+            },
+
+
+
+          ]
+        },
+        {
+          pageNum: 7,
+          title:
+            'Section 3 – How your health condition or disability affects your day-to-day life ',
           description: "",
-          guidance: "",
-          questions: []
+          guidance:'',
+          questions: [
+            {
+              id: '3',
+              title: 'Extra information –Eating and drinking',
+              type: 'multi-line-textbox',
+              placeholder: 'type information here'
+            }
+          ]
+        },
+        {
+          pageNum: 8,
+          title:
+            'Section 3 – How your health condition or disability affects your day-to-day life ',
+          description: "",
+          guidance:'',
+          questions: [
+            {
+              id: '8',
+              title:
+                'Q5 Managing treatments',
+              type: 'radio-group',
+              description: '',
+              guidance: '',
+              options: {
+                key: 'question-4',
+                items: []
+              }
+            },
+            {
+              id: '8',
+              title:
+                'Q5a Do you need to use an aid or appliance to monitor your health conditions, take medication or manage home treatments?',
+              type: 'radio-group',
+              description: '',
+              guidance:
+                '',
+              options: {
+                key: 'question-5a',
+                items: [
+                  {
+                    title: 'yes'
+                  },
+                  {
+                    title: 'no'
+                  },
+                  {
+                    title: 'sometimes'
+                  }
+                ]
+              }
+            },
+            {
+              id: '8',
+              title:
+                'Q5b Do you need help from another person to monitor your health conditions, take medication or manage home treatments?',
+              type: 'radio-group',
+              description: '',
+              guidance:
+                '',
+              options: {
+                key: 'question-5b',
+                items: [
+                  {
+                    title: 'yes'
+                  },
+                  {
+                    title: 'no'
+                  },
+                  {
+                    title: 'sometimes'
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          pageNum: 9,
+          title:
+            'Section 3 – How your health condition or disability affects your day-to-day life ',
+          description: "",
+          guidance:'',
+          questions: [
+            {
+              id: '3',
+              title: 'Extra information – Managing treatments',
+              type: 'multi-line-textbox',
+              placeholder: 'type information here'
+            }
+          ]
         }
+
       ]
     };
   }
