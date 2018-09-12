@@ -33,13 +33,8 @@ export default {
   mounted: function () {
     this.id = this.generateId()
 
-<<<<<<< HEAD
-    if (this.model.fileName && this.model.preLoad) {
-      this.loadHelpText('#help-text-' + this.id, this.model.fileName)
-=======
     if(this.model && this.model.fileName && this.model.preLoad) {
       this.loadHelpText('#help-text-' + this.id, this.model.fileName);
->>>>>>> Fixed table css and button radius
     }
   },
   methods: {
